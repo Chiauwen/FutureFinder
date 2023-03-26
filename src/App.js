@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import image1 from './assets/Ai.png';
+import image2 from './assets/Businessteamai.png';
 
-function App() {
+import { Header, GraphicDescription, FeatureCardLayout, LandingTitle, WorkshopCarousel, PackageCardLayout, LogoLayout, Newsletter} from './components';
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <GraphicDescription
+        imageSrc={image1}
+        title="Find Your Future With FutureFinder"
+        description="Explore endless possibilities and unlock your potential with FutureFinder."
+        imagePosition="right"
+      />
+      <GraphicDescription
+        imageSrc={image2}
+        title="About FutureFinder"
+        description="FutureFinder is a cutting-edge platform designed to help individuals discover their career paths and unlock their full potential."
+        imagePosition="left"
+      />
+      <LandingTitle title={"What We Offered"}/>
+      <FeatureCardLayout />
+      <WorkshopCarousel />
+      <LandingTitle title={"Choose The Right Package"}/>
+      <PackageCardLayout />
+      <LandingTitle title={"Our Collaborators"}/>
+      <LogoLayout />
+      <Newsletter />
     </div>
-  );
+  )
 }
+
 
 export default App;

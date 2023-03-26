@@ -1,9 +1,10 @@
+/* General (Applied To All Pages) */
 html,
 body {
   min-height: 100%;
 }
 
-.App {
+.Page {
     height: auto; 
     width: 100%;
     padding-top: 120px;
