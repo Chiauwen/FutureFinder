@@ -10,5 +10,6 @@ export { default as Newsletter } from './Newsletter';
 export { default as PageTitle } from './PageTitle';
 export { default as Question } from './Question';
 export { default as FormFooter } from './FormFooter';
+export { default as GoBack } from './GoBack';
 
 

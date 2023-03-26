@@ -2,65 +2,10 @@ import React, { useState } from "react";
 import { Container, Row, Col, Dropdown, Card, Button } from "react-bootstrap";
 import { Header, PageTitle} from '../components';
 import { Link } from "react-router-dom";
+import Professional from "./Professional"
 
 import styled from 'styled-components'
 import Theme from '../Theme.js';
-
-const profiles = [];
-for (let i = 1; i <= 6; i++) {
-  profiles.push(require(`../assets/profile${i}.png`));
-}
-
-const professionals = [
-  {
-    id: 1,
-    name: "John Doe",
-    profession: "Engineer",
-    imageUrl: profiles[0],
-  },
-  {
-    id: 2,
-    name: "Jane Smith",
-    profession: "Designer",
-    imageUrl: profiles[1],
-  },
-  {
-    id: 3,
-    name: "Bob Johnson",
-    profession: "Developer",
-    imageUrl: profiles[2],
-  },
-  {
-    id: 4,
-    name: "Alice Lee",
-    profession: "Manager",
-    imageUrl: profiles[3],
-  },
-  {
-    id: 5,
-    name: "Tom Smith",
-    profession: "Engineer",
-    imageUrl: profiles[4],
-  },
-  {
-    id: 6,
-    name: "Mary Brown",
-    profession: "Designer",
-    imageUrl: profiles[5],
-  },
-  {
-    id: 7,
-    name: "Sam Williams",
-    profession: "Developer",
-    imageUrl: profiles[1],
-  },
-  {
-    id: 8,
-    name: "Emily Davis",
-    profession: "Manager",
-    imageUrl: profiles[0],
-  },
-];
 
 const Image = styled(Card.Img)`
   height: 300px;
@@ -122,10 +67,10 @@ const ProfessionalPage = () => {
   };
 
   const filteredProfessionals = selectedProfession
-    ? professionals.filter((professional) => {
-        return professional.profession === selectedProfession;
+    ? Professional.filter((Professional) => {
+        return Professional.profession === selectedProfession;
       })
-    : professionals;
+    : Professional;
 
   return (
     <Theme>
@@ -151,14 +96,14 @@ const ProfessionalPage = () => {
         </Col>
       </Row>
       <Row>
-        {filteredProfessionals.map((professional) => (
-          <Col key={professional.id} xs={6} lg={4} xl={3} className="my-3">
+        {filteredProfessionals.map((Professional) => (
+          <Col key={Professional.id} xs={6} lg={4} xl={3} className="my-3">
             <Card>
-              <Image variant="top" src={professional.imageUrl} />
+              <Image variant="top" src={Professional.imageUrl} />
               <Card.Body>
-                <Card.Title>{professional.name}</Card.Title>
-                <Card.Text>{professional.profession}</Card.Text>
-                <Link to='/individualProfile'>
+                <Card.Title>{Professional.name}</Card.Title>
+                <Card.Text>{Professional.profession}</Card.Text>
+                <Link to={`/professionalProfile/${Professional.id}`}>
                 <View>View Details</View>
                 </Link>
               </Card.Body>

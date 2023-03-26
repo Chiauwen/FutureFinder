@@ -8,7 +8,7 @@ import {
   } from "react-router-dom";
 import App from './App.js'
 import './index.css'
-import { LoginPage, AnalysisPage, AnalysisResult, MockInterviewCover, MockInterviewPage, ProfessionalPage } from './pages';
+import { LoginPage, AnalysisPage, AnalysisResult, MockInterviewCover, MockInterviewPage, ProfessionalPage, ProfessionalProfile } from './pages';
 
 const router = createBrowserRouter([
     {
@@ -38,6 +38,10 @@ const router = createBrowserRouter([
     {
         path: "/professional",
         element: <ProfessionalPage />,
+    },
+    {
+        path: "/professionalProfile/:id",
+        element: <ProfessionalProfile />,
     }
   ]);
 
