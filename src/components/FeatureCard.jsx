@@ -35,10 +35,10 @@ const HeadOver = styled(Button)`
   border: ${props => props.theme.colors.orange};
   padding: 10px 40px;
 
-  &:hover {
-    background-color: ${props => props.theme.colors.black};
-    color: ${props => props.theme.colors.orange};
-    border: ${props => props.theme.colors.black};
+  &:hover, &:active {
+    background-color: ${props => props.theme.colors.black} !important;
+    color: ${props => props.theme.colors.orange} !important;
+    border: ${props => props.theme.colors.black} !important;
   }
 `;
 

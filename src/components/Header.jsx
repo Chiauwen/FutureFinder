@@ -21,9 +21,9 @@ const Register = styled(Button)`
   font-weight: ${props => props.theme.fontWeights.bold} !important;
   border: ${props => props.theme.colors.rhythm};
 
-  &:hover {
-    background-color: ${props => props.theme.colors.pink};
-    border: ${props => props.theme.colors.pink};
+  &:hover, &:active{
+    background-color: ${props => props.theme.colors.pink} !important;
+    border: ${props => props.theme.colors.pink} !important;
   }
 `;
 
@@ -96,6 +96,9 @@ function Header() {
                   <NavDropDownItem as={Link} to='/analysis'>Career Path Analysis</NavDropDownItem>
                   <NavDropDownItem href="#action/3.2">
                     Interview Techniques
+                  </NavDropDownItem>
+                  <NavDropDownItem href="#action/3.2">
+                    Resume Writing
                   </NavDropDownItem>
                   <NavDropDownItem href="#action/3.3">Salary Calculator</NavDropDownItem>
                   <NavDropDownItem href="#action/3.4">

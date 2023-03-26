@@ -24,9 +24,9 @@ const Subscribe = styled(Button)`
   font-weight: ${props => props.theme.fontWeights.bold} !important;
   border: ${props => props.theme.colors.rhythm};
 
-  &:hover {
-    background-color: ${props => props.theme.colors.pink};
-    border: ${props => props.theme.colors.pink};
+  &:hover, &:active{
+    background-color: ${props => props.theme.colors.pink} !important;
+    border: ${props => props.theme.colors.pink} !important;
   }
 `;
 
