@@ -1,11 +1,10 @@
 import React from 'react'
 import { Header, PageTitle} from '../components';
-
 import './pages.css';
 import './MockInterview.css'
 
-import person from './assets/character2.png';
-import close from './assets/close.png';
+import person from '../assets/character2.png';
+import close from '../assets/close.png';
 
 const MockInterviewPage = () => {
   return (

@@ -1,16 +1,19 @@
 import React from 'react'
 import { Header, PageTitle} from '../components';
+import Container from 'react-bootstrap/Container';
 
 import './MockInterviewCover.css'
 import './pages.css';
 
-import puzzle from './assets/52782.png';
+import puzzle from '../assets/52782.png';
+import { Link } from "react-router-dom";
 
-const App = () => {
+const MockInterviewCover = () => {
   return (
     <div className="App">
       <Header />
       <PageTitle title='Mock Interview'/>
+      <Container>
       <div className='mockinterview-how'>
         <p>How it works?</p>
         <div className='mockinterview-p'>
@@ -19,10 +22,13 @@ const App = () => {
           <p>The conversational exercise usually resembles a real interview as closely as possible, for the purpose of providing experience for a candidate.</p>
         </div>
       </div>
-        <button className='startbtn'>Start Now</button>
-        <img src={puzzle} alt='puzzle image'/>
+      <Link to="/mockPage" style={{textDecoration:"none"}}>
+          <button className="startbtn">Start Now</button>
+        </Link>
+        <img src={puzzle} alt='puzzle'/>
+      </Container>
     </div>
   )
 }
 
-export default App;
+export default MockInterviewCover;

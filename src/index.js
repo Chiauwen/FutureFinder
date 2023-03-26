@@ -7,7 +7,7 @@ import {
   } from "react-router-dom";
 import App from './App.js'
 import './index.css'
-import { LoginPage, AnalysisPage, AnalysisResult } from './pages';
+import { LoginPage, AnalysisPage, AnalysisResult, MockInterviewCover, MockInterviewPage, ProfessionalPage } from './pages';
 
 const router = createBrowserRouter([
     {
@@ -21,6 +21,22 @@ const router = createBrowserRouter([
     {
         path: "/analysis",
         element: <AnalysisPage />,
+    },
+    {
+        path: "/analysisResult",
+        element: <AnalysisResult />,
+    },
+    {
+        path: "/mockPage",
+        element: <MockInterviewPage />,
+    },
+    {
+        path: "/mockCover",
+        element: <MockInterviewCover />,
+    },
+    {
+        path: "/professional",
+        element: <ProfessionalPage />,
     }
   ]);
 

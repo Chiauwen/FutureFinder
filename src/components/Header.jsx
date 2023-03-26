@@ -101,10 +101,10 @@ function Header() {
                     Resume Writing
                   </NavDropDownItem>
                   <NavDropDownItem href="#action/3.3">Salary Calculator</NavDropDownItem>
-                  <NavDropDownItem href="#action/3.4">
+                  <NavDropDownItem as={Link} to='/professional'>
                     Chat With Professional and 1-1 Coaching
                   </NavDropDownItem>
-                  <NavDropDownItem href="#action/3.4">
+                  <NavDropDownItem as={Link} to='/mockCover'>
                     AI Mock Interview
                   </NavDropDownItem>
                   <NavDropDownItem href="#action/3.4">
