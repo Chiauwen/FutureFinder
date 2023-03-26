@@ -70,7 +70,7 @@ const Title = styled.p`
     font-family: ${props => props.theme.fonts};
     color: ${props => props.theme.colors.grape};
     padding: 30px 0 0 10px;
-    text-align: "center";
+    text-align: center;
 
     display: flex;
     justify-content: center;
