@@ -21,10 +21,6 @@ const router = createBrowserRouter([
     {
         path: "/analysis",
         element: <AnalysisPage />,
-    },
-    {
-        path: "/analysisResult",
-        element: <AnalysisResult />,
     }
   ]);
 
