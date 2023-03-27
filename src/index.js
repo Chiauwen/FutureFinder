@@ -8,7 +8,7 @@ import {
   } from "react-router-dom";
 import App from './App.js'
 import './index.css'
-import { LoginPage, AnalysisPage, AnalysisResult, MockInterviewCover, MockInterviewPage, ProfessionalPage, ProfessionalProfile, SignUp } from './pages';
+import { LoginPage, AnalysisPage, AnalysisResult, MockInterviewCover, MockInterviewPage, MockResultPage, ProfessionalPage, ProfessionalProfile, SignUp } from './pages';
 
 const router = createBrowserRouter([
     {
@@ -39,6 +39,11 @@ const router = createBrowserRouter([
         path: "/mockCover",
         element: <MockInterviewCover />,
     },
+    {
+        path: "/mockResult",
+        element: <MockResultPage />,
+    },
+
     {
         path: "/professional",
         element: <ProfessionalPage />,

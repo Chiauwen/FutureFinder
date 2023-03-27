@@ -1,5 +1,6 @@
 import React from 'react'
 import { Header, PageTitle} from '../components';
+import { Link } from "react-router-dom";
 import './pages.css';
 import './MockInterview.css'
 
@@ -24,6 +25,9 @@ const MockInterviewPage = () => {
       </div>
       <div className='timer'>
         <h4>15:00</h4>
+        <Link to="/mockResult" style={{textDecoration:'none'}}>
+          <button>Result</button>
+        </Link>
       </div>
     </div>
   )
