@@ -115,7 +115,7 @@ function Header() {
                   </NavDropDownItem>
                 </NavDropDown>
                 <NavLink as={Link} to='/login'>
-                  <Register>Register</Register>
+                  <Register>Login</Register>
                 </NavLink>
               </Nav>
             </Navbar.Collapse>

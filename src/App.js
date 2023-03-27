@@ -29,6 +29,7 @@ const App = () => {
       <LandingTitle title={"Our Collaborators"}/>
       <LogoLayout />
       <Newsletter />
+      
     </div>
   )
 }

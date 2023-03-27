@@ -1,16 +1,14 @@
 import Form from 'react-bootstrap/Form'
 import './LoginPage.css'
 import { Header } from '../components'
-import Theme from '../Theme'
 import { Link } from 'react-router-dom'
-import SignUp from './SignUp'
 
 function LoginPage() {
   return (
     <div className="login">
       <Header />
       <Form className="login-input">
-        <h2>Sign In</h2>
+        <h2>Login</h2>
 
         <div className="login-content">
           <label>Email</label>
@@ -28,7 +26,7 @@ function LoginPage() {
       <div className="register">
         <p>New to FutureFinder?</p>
         
-        <Link to="./SignUp">
+        <Link to='/signup'>
           <button className="register">Join Now</button>
         </Link>
       </div>

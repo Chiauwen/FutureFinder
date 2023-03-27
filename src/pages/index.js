@@ -5,4 +5,4 @@ export { default as MockInterviewCover } from './MockInterviewCover';
 export { default as MockInterviewPage } from './MockInterviewPage';
 export { default as ProfessionalPage } from './ProfessionalPage';
 export { default as ProfessionalProfile } from './ProfessionalProfile';
-export { default as SignUp } from './SignUp'
+export { default as SignUp } from './SignUp';
