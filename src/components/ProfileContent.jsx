@@ -22,7 +22,7 @@ const Title = styled.p`
 `;
 
 const Description = styled.p`
-    font-size: ${props => props.theme.fontSizes.medium};
+    font-size: ${props => props.theme.fontSizes.smallMedium};
     font-weight: ${props => props.theme.fontWeights.medium};
     font-family: ${props => props.theme.fonts};
     color: ${props => props.theme.colors.rackley};
@@ -38,7 +38,7 @@ const Line = styled.div`
 `;
 
 const StyledLi = styled.li`
-  font-size: ${props => props.theme.fontSizes.medium};
+  font-size: ${props => props.theme.fontSizes.smallMedium};
   font-weight: ${props => props.theme.fontWeights.medium};
   font-family: ${props => props.theme.fonts};
   color: ${props => props.theme.colors.rackley};
