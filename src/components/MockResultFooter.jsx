@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import styled from 'styled-components'
 import Theme from '../Theme.js';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const PageCount = styled(Button)`
   border-radius: 50%;

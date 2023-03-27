@@ -1,4 +1,4 @@
-h3{
+.result{
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 40px;
@@ -6,8 +6,8 @@ h3{
     letter-spacing: 0.06em;
 }
 
-p,
-li{
+.title,
+.suggestion{
     font-family: 'Montserrat';
     font-weight: 300;
     font-size: 36px;
