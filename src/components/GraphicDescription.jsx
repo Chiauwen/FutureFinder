@@ -20,7 +20,8 @@ const Title = styled.p`
   font-family: ${props => props.theme.fonts};
   color: ${props => props.theme.colors.grape};
   text-align: ${props => props.imagePosition === 'left' ? 'right' : 'left'};
-
+  line-height: normal;
+  
   ${props => props.theme.breakpoints.down('lg')} {
     font-size: ${props => props.theme.fontSizes.medium};
   }
