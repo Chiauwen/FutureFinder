@@ -9,7 +9,7 @@ import {
 import App from './App.js'
 import './index.css'
 import { LoginPage, AnalysisPage, AnalysisResult, MockInterviewCover, MockInterviewPage, MockResultPage, 
-    ProfessionalPage, ProfessionalProfile, SignUp, ChatPage } from './pages';
+    ProfessionalPage, ProfessionalProfile, SignUp, ChatPage, CareerInfo, AccountantInfo} from './pages';
 
 const router = createBrowserRouter([
     {
@@ -56,7 +56,15 @@ const router = createBrowserRouter([
     {
         path: "/chat",
         element: <ChatPage />,
-    }
+    },
+    {
+        path: "/careerInfo",
+        element: <CareerInfo />,
+    },
+    {
+        path: "/accountantInfo",
+        element: <AccountantInfo />,
+    },
   ]);
 
 ReactDOM.render(

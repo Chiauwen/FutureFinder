@@ -8,3 +8,5 @@ export { default as ProfessionalPage } from './ProfessionalPage';
 export { default as ProfessionalProfile } from './ProfessionalProfile';
 export { default as SignUp } from './SignUp';
 export { default as ChatPage } from './ChatPage';
+export { default as CareerInfo } from './CareerInfo';
+export { default as AccountantInfo } from './AccountantInfo';

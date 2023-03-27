@@ -107,7 +107,7 @@ function Header() {
                   <NavDropDownItem as={Link} to='/mockCover'>
                     AI Mock Interview
                   </NavDropDownItem>
-                  <NavDropDownItem href="#action/3.4">
+                  <NavDropDownItem href="careerInfo">
                     Career Path Prior Information
                   </NavDropDownItem>
                   <NavDropDownItem href="#action/3.4">
