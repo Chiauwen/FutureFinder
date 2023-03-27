@@ -51,3 +51,31 @@
     color: #000000;
   }
   
+  .timer button{
+    background: #FFB756;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20px;
+    margin: 0 3rem;
+    padding: 1rem 6rem;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    cursor: pointer;
+    color: #000000;
+    text-align: center;
+    border: none;
+    float: right;
+  }
+
+  .timer button:hover, 
+  .timer button:active {
+    background-color: black;
+    color: #FFB756;
+    border: black;
+  }
+

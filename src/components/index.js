@@ -12,5 +12,6 @@ export { default as Question } from './Question';
 export { default as FormFooter } from './FormFooter';
 export { default as GoBack } from './GoBack';
 export { default as ProfileContent } from './ProfileContent';
+export { default as MockResultFooter } from './MockResultFooter';
 
 

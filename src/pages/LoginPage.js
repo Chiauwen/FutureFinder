@@ -3,25 +3,17 @@ import './SignUp.css'
 import { Header } from '../components'
 import { Link } from 'react-router-dom'
 
-function SignUp() {
+function LoginPage() {
   return (
     <div className="signup">
       <Header />
       <Form className="signup-input">
-        <h2>Sign Up</h2>
+        <h2>Login</h2>
 
         <div className="signup-content">
-          <input type="username" placeholder="Enter your username"></input>
+          <input type="email" placeholder="Email"></input>
 
-          <input type="password" placeholder="Enter your email"></input>
-
-          <label for="role">Your Role</label>
-          <select name="role" id="role">
-            <option value="student">student</option>
-            <option value="professional">professional</option>
-          </select>
-
-          <input type="password" placeholder="Enter your email"></input>
+          <input type="password" placeholder="Password"></input>
 
           <button type="submit" className="btn btn-primary">
             Login
@@ -32,7 +24,7 @@ function SignUp() {
       <div className="login">
         <p>already have account?</p>
 
-        <Link to="/login">
+        <Link to="/SignUp">
           <button className="login">Login</button>
         </Link>
       </div>
@@ -40,4 +32,4 @@ function SignUp() {
   )
 }
 
-export default SignUp
+export default LoginPage
