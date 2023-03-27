@@ -8,7 +8,7 @@
   
   .signup-input h2 {
     text-align: center;
-  
+    margin-top: 7rem;
     margin-bottom: 3rem;
     font-family: 'Montserrat';
     font-weight: 900;
@@ -39,6 +39,7 @@
     width: 150%;
     padding: 0.5rem;
     border: none;
+    margin-bottom: 2rem;
     border-bottom: 2px solid black;
     font-family: 'Montserrat';
     font-size: 1rem;
@@ -47,7 +48,7 @@
   }
   
   .signup-content button {
-    margin-top: 40px;
+    margin-top: 20px;
     padding-top: 0.5rem 1rem;
     height: 58px;
     left: 1153px;
@@ -66,10 +67,15 @@
     text-decoration: none;
   }
 
+  .signup-content label{
+    font-size: 20px;
+  }
+
   .signup-content select{
     border:none;
     padding: 10px 20px;
     border-radius:5px;
+    margin-bottom: 2rem;
   }
 
   .signup-content select:focus{
@@ -82,11 +88,33 @@
   }
   
   .login{
-    margin-top: 0rem;
+    margin-top: 1.5rem;
+  }
+
+  .login p{
+    font-size: 15px;
+    margin-bottom: -2rem;
   }
 
   .login button{
-    margin: 0;
+    border-top: -10px;
+    border: none;
+    background-color: transparent;
+    color: lightskyblue;
+    text-decoration: underline;
+  }
+
+  .signup{
+    margin-top: 1.5rem;
+  }
+
+  .signup p{
+    font-size: 15px;
+    margin-bottom: -2rem;
+  }
+
+  .login button{
+    border-top: -10px;
     border: none;
     background-color: transparent;
     color: lightskyblue;
