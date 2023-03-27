@@ -13,7 +13,7 @@ const Navigation = styled(Button)`
   border: ${props => props.theme.colors.orange} !important;
   padding: 10px 40px;
   text-decoration: none !important;
-  border-radius: 5px;
+  border-radius: 5px !important;
 
   &:hover, &:active {
     background-color: ${props => props.theme.colors.black} !important;

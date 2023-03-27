@@ -4,6 +4,7 @@ import './pages.css';
 import { useParams } from 'react-router-dom';
 import Professional from "./Professional"
 import { Container, Row, Col, Button} from "react-bootstrap";
+import {Link} from "react-router-dom";
 import styled from 'styled-components'
 import Theme from '../Theme.js';
 
@@ -43,6 +44,8 @@ const But = styled(Button)`
   border: ${props => props.theme.colors.orange};
   padding: 15px;
   width: 100%;
+  text-decoration: none !important;
+  border-radius: 5px !important;
 
   &:hover, &:active {
     background-color: ${props => props.theme.colors.black} !important;
@@ -82,10 +85,10 @@ const ProfessionalProfile = () => {
         <ProfileContent title="Area of Expertise" description={profile.expertise}/>
         <Wrap>
           <Col md={3}>
-            <But>Chat</But>
+            <But as={Link} to='/chat' >Chat</But>
           </Col>
           <Col md={3}>
-          <But>One-to-One Coaching</But>
+          <But as={Link} to='/'>One-to-One Coaching</But>
           </Col>
       </Wrap>
       </div>

@@ -12,6 +12,11 @@ const Image = styled(Card.Img)`
   padding: 30px;
 `;
 
+const CardText = styled(Card.Text)`
+  font-size: 20px;
+  font-weight: ${props => props.theme.fontWeights.medium}
+`;
+
 const Individual = styled(Card)`
   background-color: ${props => props.theme.colors.bubbles};
   border: 5px solid ${props => props.theme.colors.rackley};
@@ -108,7 +113,7 @@ const ProfessionalPage = () => {
               <Image variant="top" src={Professional.imageUrl} />
               <Card.Body>
                 <Card.Title>{Professional.name}</Card.Title>
-                <Card.Text>{Professional.profession}</Card.Text>
+                <CardText>{Professional.profession}</CardText>
                 <Link to={`/professionalProfile/${Professional.id}`}>
                 <View>View Details</View>
                 </Link>
