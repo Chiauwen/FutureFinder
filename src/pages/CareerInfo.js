@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Container, Row, Col, Dropdown } from 'react-bootstrap'
-import { Header, PageTitle } from '../components'
+import { Header, PageTitle, Footer } from '../components'
 import { Link } from 'react-router-dom'
 
 import accounting from '../assets/accounting-systems1.png'
@@ -66,6 +66,7 @@ const CareerInfo = () => {
             </Col>
         </Row>
       </Container>
+      <Footer />
     </div>
     </Theme>
   )

@@ -8,16 +8,17 @@ const Wrapper = styled.div`
   background-color: white;
   border:5px;
   margin: 30px 0;
+  padding: 20px 0;
 `;
 
-const Test = styled.div`
+const Padding = styled.div`
   padding-top: 130px;
 `;
 
 const ChatPage = () => {
   return (
     <Theme>
-      <Test className='Page'>
+      <Padding className='Page'>
         <Container>
           <Header />
           <GoBack route="/" />
@@ -26,7 +27,7 @@ const ChatPage = () => {
           </Wrapper>
         </Container>
         <Footer />
-      </Test>
+      </Padding>
     </Theme>
   );
 };

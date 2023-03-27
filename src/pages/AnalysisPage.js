@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Header, PageTitle, Question, FormFooter} from '../components';
+import { Header, Footer, PageTitle, Question, FormFooter} from '../components';
 import './pages.css';
 
 const AnalysisPage = () => {
@@ -14,6 +14,7 @@ const AnalysisPage = () => {
       <Question question="I find satisfaction in helping others and making a difference in their lives." />
       <Question question="I enjoy exploring and learning new things, even if they're outside of my comfort zone." />
       <FormFooter totalPages={5} currentPage={4} />
+      <Footer />
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { GoBack, Header, PageTitle, ProfileContent} from '../components';
+import { GoBack, Header, PageTitle, Footer, ProfileContent} from '../components';
 import './pages.css';
 import { useParams } from 'react-router-dom';
 import Professional from "./Professional"
@@ -91,6 +91,7 @@ const ProfessionalProfile = () => {
           <But as={Link} to='/'>One-to-One Coaching</But>
           </Col>
       </Wrap>
+      <Footer />
       </div>
     </Theme>
   )

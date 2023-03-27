@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import { Header, PageTitle } from '../components'
+import { Header, PageTitle, Footer } from '../components'
 import { MdWork } from 'react-icons/md'
 import { TfiWrite } from 'react-icons/tfi'
 import { BsFillBuildingFill } from 'react-icons/bs'
@@ -64,6 +64,7 @@ const AccountantInfo = () => {
             <p className='text-body'>Most accountants and auditors work in offices, but some work from home. Although they complete much of their work alone, they sometimes work in teams with other accountants and auditors. Accountants and auditors may travel to their clients' places of business.</p>
           </Row>
         </Container>
+      <Footer />
       </div>
     </Theme>
   )

@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import { Row, Col } from 'react-bootstrap';
-import { Header, PageTitle} from '../components';
+import { Header, PageTitle, Footer} from '../components';
 import styled from 'styled-components'
 import Theme from '../Theme.js';
 import imageSrc from '../assets/analysisResult.png';
@@ -55,6 +55,7 @@ const AnalysisPage = () => {
           </Row>
         </Container>
       </Theme>
+      <Footer />
     </div>
   )
 }

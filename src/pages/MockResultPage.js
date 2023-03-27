@@ -2,7 +2,7 @@ import React from 'react'
 
 import Container from 'react-bootstrap/Container';
 import { Row, Col } from 'react-bootstrap';
-import { Header, PageTitle, MockResultFooter } from '../components';
+import { Header, PageTitle, MockResultFooter, Footer} from '../components';
 
 import Theme from '../Theme.js';
 import './pages.css';
@@ -33,6 +33,8 @@ const MockResultPage = () => {
             </Row>
         </Container>
         <MockResultFooter totalPages={3} currentPage={0} />
+        
+      <Footer />
       </Theme>
       </div>
   )

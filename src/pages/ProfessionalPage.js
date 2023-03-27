@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Dropdown, Card, Button } from "react-bootstrap";
-import { Header, PageTitle} from '../components';
+import { Header, PageTitle, Footer} from '../components';
 import { Link } from "react-router-dom";
 import Professional from "./Professional"
 
@@ -123,6 +123,7 @@ const ProfessionalPage = () => {
         ))}
       </Row>
     </Container>
+      <Footer />
     </div>
     </Theme>
   );
