@@ -70,7 +70,7 @@ const Professional = [
         profession: "Designer",
         imageUrl: profiles[5],
         address: "123 Main St, Anytown USA",
-        numRatings: 15,
+        ratings: 15,
         ratingScore: 4.3,
         experience: [
           { year: 2018, profession: "Graphic Designer" },
@@ -80,7 +80,7 @@ const Professional = [
         ],
         description:
           "I'm a versatile designer with experience in graphic, UI, and product design. I specialize in creating engaging and user-friendly designs that drive business growth.",
-        areasOfExpertise: ["UI/UX Design", "Product Design", "Graphic Design"],
+          expertise: ["UI/UX Design", "Product Design", "Graphic Design"],
       },
       {
         id: 7,
@@ -88,7 +88,7 @@ const Professional = [
         profession: "Developer",
         imageUrl: profiles[1],
         address: "456 Oak St, Anytown USA",
-        numRatings: 27,
+        ratings: 27,
         ratingScore: 4.8,
         experience: [
           { year: 2017, profession: "Web Developer" },
@@ -98,7 +98,7 @@ const Professional = [
         ],
         description:
           "I'm a highly skilled developer with a strong focus on web development and DevOps. I enjoy building scalable and robust applications that solve real-world problems.",
-        areasOfExpertise: ["Web Development", "DevOps", "Full-Stack Development"],
+          expertise: ["Web Development", "DevOps", "Full-Stack Development"],
       },
       {
         id: 8,
@@ -106,7 +106,7 @@ const Professional = [
         profession: "Manager",
         imageUrl: profiles[0],
         address: "789 Maple Ave, Anytown USA",
-        numRatings: 10,
+        ratings: 10,
         ratingScore: 4.1,
         experience: [
           { year: 2019, profession: "Project Manager" },
@@ -115,7 +115,7 @@ const Professional = [
         ],
         description:
           "I'm a seasoned manager with experience leading projects and teams to success. I specialize in product management and enjoy working with cross-functional teams to deliver high-quality products.",
-        areasOfExpertise: ["Product Management", "Project Management", "Team Leadership"],
+          expertise: ["Product Management", "Project Management", "Team Leadership"],
       },
     ];
   

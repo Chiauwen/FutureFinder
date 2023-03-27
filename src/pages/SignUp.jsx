@@ -1,7 +1,6 @@
 import Form from 'react-bootstrap/Form'
 import './SignUp.css'
 import { Header } from '../components'
-import Theme from '../Theme'
 import { Link } from 'react-router-dom'
 
 function SignUp() {

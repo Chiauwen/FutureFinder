@@ -12,6 +12,12 @@ const Image = styled(Card.Img)`
   padding: 30px;
 `;
 
+const Individual = styled(Card)`
+  background-color: ${props => props.theme.colors.bubbles};
+  border: 5px solid ${props => props.theme.colors.rackley};
+`;
+
+
 const View = styled(Button)`
   background-color: ${props => props.theme.colors.orange};
   color: ${props => props.theme.colors.black};
@@ -98,7 +104,7 @@ const ProfessionalPage = () => {
       <Row>
         {filteredProfessionals.map((Professional) => (
           <Col key={Professional.id} xs={6} lg={4} xl={3} className="my-3">
-            <Card>
+            <Individual>
               <Image variant="top" src={Professional.imageUrl} />
               <Card.Body>
                 <Card.Title>{Professional.name}</Card.Title>
@@ -107,7 +113,7 @@ const ProfessionalPage = () => {
                 <View>View Details</View>
                 </Link>
               </Card.Body>
-            </Card>
+            </Individual>
           </Col>
         ))}
       </Row>
