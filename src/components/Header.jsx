@@ -111,7 +111,7 @@ function Header() {
                   <NavDropDownItem href="careerInfo">
                     Career Path Prior Information
                   </NavDropDownItem>
-                  <NavDropDownItem href="#action/3.4">
+                  <NavDropDownItem href="/workshop">
                     Upcoming Workshop
                   </NavDropDownItem>
                 </NavDropDown>
