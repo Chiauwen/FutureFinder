@@ -46,22 +46,22 @@ const CareerInfo = () => {
         </Col>
       </Row>
         <Row>
-             <Col md={5} className='careerbox'>
-                <img src={accounting1} alt="accounting image" width="432px" height="301px" borderRadius="53px"/>
+             <Col xs={6} sm={6} md={8} lg={10} className='careerbox'>
+                <img className='career-img' src={accounting1} alt="accounting image" width="432px" height="301px" borderRadius="53px"/>
                 <Link to="/accountantInfo">
                     <button className='careerinfo-btn'>Accountant</button>
                 </Link>
             </Col>
-            <Col md={5} className='careerbox'>
-                <img src={accounting} alt="accounting image" width="432px" height="301px" borderRadius="53px"/>
+            <Col xs={6} sm={6} md={8} lg={10} className='careerbox'>
+                <img className='career-img' src={accounting} alt="accounting image" width="432px" height="301px" borderRadius="53px"/>
                 <button className='careerinfo-btn'>Account Assistant</button>
             </Col>
-            <Col md={5} className='careerbox'>
-                <img src={construct} alt="construction image" width="432px" height="301px" borderRadius="53px"/>
+            <Col xs={6} sm={6} md={8} lg={10} className='careerbox'>
+                <img className='career-img' src={construct} alt="construction image" width="432px" height="301px" borderRadius="53px"/>
                 <button className='careerinfo-btn'>Constructor</button>
             </Col>
-            <Col md={5} className='careerbox'>
-                <img src={technology} alt="technology image" width="432px" height="301px" borderRadius="53px"/>
+            <Col xs={6} sm={6} md={8} lg={10} className='careerbox'>
+                <img className='career-img' src={technology} alt="technology image" width="432px" height="301px" borderRadius="53px"/>
                 <button className='careerinfo-btn'>AI Engineer</button>
             </Col>
         </Row>
