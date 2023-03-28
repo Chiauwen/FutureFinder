@@ -12,3 +12,4 @@ export { default as SalaryCalculator } from './SalaryCalculator';
 export { default as ChatPage } from './ChatPage';
 export { default as CareerInfo } from './CareerInfo';
 export { default as AccountantInfo } from './AccountantInfo';
+export { default as Workshop } from './Workshop';
