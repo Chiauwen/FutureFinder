@@ -1,122 +1,115 @@
 .signup {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 10rem;
-  }
-  
-  .signup-input h2 {
-    text-align: center;
-    margin-top: 7rem;
-    margin-bottom: 3rem;
-    font-family: 'Montserrat';
-    font-weight: 900;
-    font-size: 60px;
-    line-height: 85px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 10rem;
+}
 
-  .signup-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .signup-content label {
-    font-family: 'Lato';
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 42px;
-    text-align: left;
-  }
-  
-  .signup-content input {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 150%;
-    padding: 0.5rem;
-    border: none;
-    margin-bottom: 2rem;
-    border-bottom: 2px solid black;
-    font-family: 'Montserrat';
-    font-size: 1rem;
-    text-align: center;
-    display: flex;
-  }
-  
-  .signup-content button {
-    margin-top: 20px;
-    padding-top: 0.5rem 1rem;
-    height: 58px;
-    left: 1153px;
-    top: 55px;
-    background: #ffb756;
-    border: none;
-  
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: Arial;
-    color: #000;
-    font-size: 20px;
-    background: #ffb756;
-    padding: 15px 40px 15px 40px;
-    text-decoration: none;
-  }
+.signup-input h2 {
+  text-align: center;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 85px;
+}
 
-  .signup-content label{
-    font-size: 20px;
-  }
+.signup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
-  .signup-content select{
-    border:none;
-    padding: 10px 20px;
-    border-radius:5px;
-    margin-bottom: 2rem;
-  }
+.signup-content label {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: left;
+}
 
-  .signup-content select:focus{
-    outline:none;
-  }
-  
-  .signup-content button:hover {
-    background: #000000;
-    text-decoration: #ffb756;
-  }
-  
-  .login{
-    margin-top: 1.5rem;
-  }
+.signup-content input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 150%;
+  padding: 0.5rem;
+  border: none;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid black;
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  text-align: center;
+  display: flex;
+}
 
-  .login p{
-    font-size: 15px;
-    margin-bottom: -2rem;
-  }
 
-  .login button{
-    border-top: -10px;
-    border: none;
-    background-color: transparent;
-    color: lightskyblue;
-    text-decoration: underline;
-  }
+.signup-content button {
+  margin-top: 20px;
+  padding-top: 0.5rem 1rem;
+  height: 58px;
+  left: 1153px;
+  top: 55px;
+  background: #ffb756;
+  border: none;
 
-  .signup{
-    margin-top: 1.5rem;
-  }
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #000;
+  font-size: 20px;
+  background: #ffb756;
+  padding: 15px 40px 15px 40px;
+  text-decoration: none;
+}
 
-  .signup p{
-    font-size: 15px;
-    margin-bottom: -2rem;
-  }
+.signup-content label {
+  font-size: 20px;
+}
 
-  .login button{
-    border-top: -10px;
-    border: none;
-    background-color: transparent;
-    color: lightskyblue;
-    text-decoration: underline;
-  }
+.signup-content select {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 2rem ;
+}
+
+.signup-content select:focus {
+  outline: none;
+}
+
+.signup-content button:hover {
+  background: #000000;
+  text-decoration: #ffb756;
+}
+
+.login {
+  margin-top: 1.5rem;
+}
+
+.login p {
+  font-size: 15px;
+  margin-bottom: -2rem;
+}
+
+.login button {
+  border-top: -10px;
+  border: none;
+  background-color: transparent;
+  color: lightskyblue;
+  text-decoration: underline;
+}
+
+.signup {
+  margin-top: 1.5rem;
+}
+
+.signup p {
+  font-size: 15px;
+  margin-bottom: -2rem;
+}

@@ -8,12 +8,16 @@ import {
   } from "react-router-dom";
 import App from './App.js'
 import './index.css'
-import { LoginPage, AnalysisPage, AnalysisResult, MockInterviewCover, MockInterviewPage, MockResultPage, ProfessionalPage, ProfessionalProfile, SignUp } from './pages';
+import { LoginPage, AnalysisPage, AnalysisResult, MockInterviewCover, MockInterviewPage, MockResultPage, ProfessionalPage, ProfessionalProfile, SignUp, Profile, SalaryCalculator } from './pages';
 
 const router = createBrowserRouter([
     {
       path: "/",
       element: <App />,
+    },
+    {
+        path: "/profile",
+        element: <Profile />,
     },
     {
         path: "/login",
@@ -22,6 +26,10 @@ const router = createBrowserRouter([
     {
         path: "/signup",
         element: <SignUp />,
+    },
+    {
+        path: "/SalaryCalculator",
+        element: <SalaryCalculator />,
     },
     {
         path: "/analysis",

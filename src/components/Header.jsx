@@ -100,7 +100,8 @@ function Header() {
                   <NavDropDownItem href="#action/3.2">
                     Resume Writing
                   </NavDropDownItem>
-                  <NavDropDownItem href="#action/3.3">Salary Calculator</NavDropDownItem>
+                  <NavDropDownItem href="/SalaryCalculator">Salary Calculator
+                  </NavDropDownItem>
                   <NavDropDownItem as={Link} to='/professional'>
                     Chat With Professional and 1-1 Coaching
                   </NavDropDownItem>

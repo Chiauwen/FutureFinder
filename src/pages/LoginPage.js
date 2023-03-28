@@ -15,17 +15,19 @@ function LoginPage() {
 
           <input type="password" placeholder="Password"></input>
 
-          <button type="submit" className="btn btn-primary">
-            Login
-          </button>
+          <Link to="/Profile">
+            <button type="submit" className="btn btn-primary">
+              Login
+            </button>
+          </Link>
         </div>
       </Form>
 
       <div className="login">
-        <p>already have account?</p>
+        <p>New to FutureFinder?</p>
 
         <Link to="/SignUp">
-          <button className="login">Login</button>
+          <button className="login">Join Now!</button>
         </Link>
       </div>
     </div>
