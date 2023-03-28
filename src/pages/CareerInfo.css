@@ -1,4 +1,4 @@
-h3{
+.careerinfo-h3{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 600;
@@ -26,7 +26,7 @@ h3{
     align-items: center;
 }
 
-button{
+.careerinfo-btn{
     border: none;
     font-family: 'Montserrat';
     font-weight: 900;

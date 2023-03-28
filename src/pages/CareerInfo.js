@@ -26,7 +26,7 @@ const CareerInfo = () => {
       <PageTitle title="Career Information"/>
       <Container>
       <Row>
-        <Col>
+        <Col className='careerinfo-h3'>
             <h3>Pick an industry</h3>
         </Col>
       </Row>
@@ -49,20 +49,20 @@ const CareerInfo = () => {
              <Col md={5} className='careerbox'>
                 <img src={accounting1} alt="accounting image" width="432px" height="301px" borderRadius="53px"/>
                 <Link to="/accountantInfo">
-                    <button>Accountant</button>
+                    <button className='careerinfo-btn'>Accountant</button>
                 </Link>
             </Col>
             <Col md={5} className='careerbox'>
                 <img src={accounting} alt="accounting image" width="432px" height="301px" borderRadius="53px"/>
-                <button>Account Assistant</button>
+                <button className='careerinfo-btn'>Account Assistant</button>
             </Col>
             <Col md={5} className='careerbox'>
                 <img src={construct} alt="construction image" width="432px" height="301px" borderRadius="53px"/>
-                <button>Constructor</button>
+                <button className='careerinfo-btn'>Constructor</button>
             </Col>
             <Col md={5} className='careerbox'>
                 <img src={technology} alt="technology image" width="432px" height="301px" borderRadius="53px"/>
-                <button>AI Engineer</button>
+                <button className='careerinfo-btn'>AI Engineer</button>
             </Col>
         </Row>
       </Container>

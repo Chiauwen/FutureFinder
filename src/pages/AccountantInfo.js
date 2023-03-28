@@ -27,11 +27,11 @@ const AccountantInfo = () => {
               <p className='title'>What Accountants and Auditors Do</p>
             </Col>
           </Row>
-          <Row>
+          <Row className='account-img'>
             <img src={accounting1} alt="accounting image"/>
           </Row>
-          <Row className='text-margin'>
-            <p className='text-body'>Accountants and auditors prepare and examine financial records. They ensure that financial records are accurate and that taxes are paid properly and on time. Accountants and auditors assess financial operations and work to help ensure that organizations run efficiently.</p>
+          <Row className='text-body'>
+            <p>Accountants and auditors prepare and examine financial records. They ensure that financial records are accurate and that taxes are paid properly and on time. Accountants and auditors assess financial operations and work to help ensure that organizations run efficiently.</p>
           </Row>
           <Row>
           <Col xs={1} className="icon">
@@ -41,7 +41,7 @@ const AccountantInfo = () => {
               <p className='title'>Duties of Accountants and Auditors</p>
             </Col>
           </Row>
-          <Row className='text-margin'>
+          <Row className='text-body'>
             <p>Accountants and auditors typically do the following:</p>
             <ul>
               <li>Examine financial statements to ensure that they are accurate and comply with laws and regulations</li>
