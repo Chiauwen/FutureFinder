@@ -21,7 +21,7 @@ const ChatPage = () => {
       <Padding className='Page'>
         <Container>
           <Header />
-          <GoBack route="/" />
+          <GoBack route="/professional" />
           <Wrapper>
             <Chat />
           </Wrapper>

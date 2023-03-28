@@ -88,7 +88,7 @@ const ProfessionalProfile = () => {
             <But as={Link} to='/chat' >Chat</But>
           </Col>
           <Col md={3}>
-          <But as={Link} to='/'>One-to-One Coaching</But>
+          <But as={Link} to='/coaching'>One-to-One Coaching</But>
           </Col>
       </Wrap>
       <Footer />
