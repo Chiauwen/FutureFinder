@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, PageTitle} from '../components';
+import { Header, PageTitle, Footer} from '../components';
 import { Link } from "react-router-dom";
 import './pages.css';
 import './MockInterview.css'
@@ -29,6 +29,7 @@ const MockInterviewPage = () => {
           <button>Result</button>
         </Link>
       </div>
+      <Footer />
     </div>
   )
 }

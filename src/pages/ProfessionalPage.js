@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Dropdown, Card, Button } from "react-bootstrap";
-import { Header, PageTitle} from '../components';
+import { Header, PageTitle, Footer} from '../components';
 import { Link } from "react-router-dom";
 import Professional from "./Professional"
 
@@ -11,6 +11,17 @@ const Image = styled(Card.Img)`
   height: 300px;
   padding: 30px;
 `;
+
+const CardText = styled(Card.Text)`
+  font-size: 20px;
+  font-weight: ${props => props.theme.fontWeights.medium}
+`;
+
+const Individual = styled(Card)`
+  background-color: ${props => props.theme.colors.bubbles};
+  border: 5px solid ${props => props.theme.colors.rackley};
+`;
+
 
 const View = styled(Button)`
   background-color: ${props => props.theme.colors.orange};
@@ -98,20 +109,21 @@ const ProfessionalPage = () => {
       <Row>
         {filteredProfessionals.map((Professional) => (
           <Col key={Professional.id} xs={6} lg={4} xl={3} className="my-3">
-            <Card>
+            <Individual>
               <Image variant="top" src={Professional.imageUrl} />
               <Card.Body>
                 <Card.Title>{Professional.name}</Card.Title>
-                <Card.Text>{Professional.profession}</Card.Text>
+                <CardText>{Professional.profession}</CardText>
                 <Link to={`/professionalProfile/${Professional.id}`}>
                 <View>View Details</View>
                 </Link>
               </Card.Body>
-            </Card>
+            </Individual>
           </Col>
         ))}
       </Row>
     </Container>
+      <Footer />
     </div>
     </Theme>
   );

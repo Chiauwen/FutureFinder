@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, PageTitle} from '../components';
+import { Header, PageTitle, Footer} from '../components';
 import Container from 'react-bootstrap/Container';
 
 import './MockInterviewCover.css'
@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const MockInterviewCover = () => {
   return (
-    <div className="App">
+    <div className="Page">
       <Header />
       <PageTitle title='Mock Interview'/>
       <Container>
@@ -27,6 +27,7 @@ const MockInterviewCover = () => {
         </Link>
         <img src={puzzle} alt='puzzle'/>
       </Container>
+      <Footer />
     </div>
   )
 }

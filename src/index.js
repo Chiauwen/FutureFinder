@@ -8,7 +8,12 @@ import {
   } from "react-router-dom";
 import App from './App.js'
 import './index.css'
+<<<<<<< HEAD
 import { LoginPage, AnalysisPage, AnalysisResult, MockInterviewCover, MockInterviewPage, MockResultPage, ProfessionalPage, ProfessionalProfile, SignUp, Profile, SalaryCalculator } from './pages';
+=======
+import { LoginPage, AnalysisPage, AnalysisResult, MockInterviewCover, MockInterviewPage, MockResultPage, 
+    ProfessionalPage, ProfessionalProfile, SignUp, ChatPage, CareerInfo, AccountantInfo} from './pages';
+>>>>>>> 151229964e5b89e91112ff23cb5d9a59d8a9a6cc
 
 const router = createBrowserRouter([
     {
@@ -59,7 +64,19 @@ const router = createBrowserRouter([
     {
         path: "/professionalProfile/:id",
         element: <ProfessionalProfile />,
-    }
+    },
+    {
+        path: "/chat",
+        element: <ChatPage />,
+    },
+    {
+        path: "/careerInfo",
+        element: <CareerInfo />,
+    },
+    {
+        path: "/accountantInfo",
+        element: <AccountantInfo />,
+    },
   ]);
 
 ReactDOM.render(

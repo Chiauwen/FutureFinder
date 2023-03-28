@@ -11,6 +11,9 @@ export { default as PageTitle } from './PageTitle';
 export { default as Question } from './Question';
 export { default as FormFooter } from './FormFooter';
 export { default as GoBack } from './GoBack';
+export { default as ProfileContent } from './ProfileContent';
 export { default as MockResultFooter } from './MockResultFooter';
+export { default as Chat } from './Chat';
+export { default as Footer } from './Footer';
 
 

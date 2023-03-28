@@ -3,7 +3,7 @@ import './App.css'
 import image1 from './assets/Ai.png';
 import image2 from './assets/Businessteamai.png';
 
-import { Header, GraphicDescription, FeatureCardLayout, LandingTitle, WorkshopCarousel, PackageCardLayout, LogoLayout, Newsletter} from './components';
+import { Header, GraphicDescription, Footer, FeatureCardLayout, LandingTitle, WorkshopCarousel, PackageCardLayout, LogoLayout, Newsletter} from './components';
 
 const App = () => {
   return (
@@ -29,7 +29,7 @@ const App = () => {
       <LandingTitle title={"Our Collaborators"}/>
       <LogoLayout />
       <Newsletter />
-      
+      <Footer />
     </div>
   )
 }

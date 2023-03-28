@@ -6,7 +6,6 @@ import Theme from '../Theme.js';
 
 const Margin = styled(Row)`
   margin: 40px 0;
-  
 `;
 
 const Title = styled.p`
