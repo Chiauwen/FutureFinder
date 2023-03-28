@@ -12,7 +12,7 @@ const Card = styled.div`
   box-shadow: 16px -17px 0px rgb(108 119 159);
 `;
 
-const Title = styled.h5`
+const Title = styled.p`
     font-size: 25px;
     font-weight: ${props => props.theme.fontWeights.black};
     font-family: ${props => props.theme.fonts};
