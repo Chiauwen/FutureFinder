@@ -13,3 +13,6 @@ export { default as ChatPage } from './ChatPage';
 export { default as CareerInfo } from './CareerInfo';
 export { default as AccountantInfo } from './AccountantInfo';
 export { default as CoachingPage } from './CoachingPage';
+export { default as Workshop } from './Workshop';
+export { default as ResumePage } from './ResumePage';
+export { default as InterviewWritingPage } from './InterviewWritingPage';

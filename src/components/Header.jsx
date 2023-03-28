@@ -94,10 +94,10 @@ function Header() {
                 <NavLink as={Link} to='/'>Home</NavLink>
                 <NavDropDown title="Services" id="collasible-nav-dropdown">
                   <NavDropDownItem as={Link} to='/analysis'>Career Path Analysis</NavDropDownItem>
-                  <NavDropDownItem href="#action/3.2">
+                  <NavDropDownItem href="/interviewWritingPage">
                     Interview Techniques
                   </NavDropDownItem>
-                  <NavDropDownItem href="#action/3.2">
+                  <NavDropDownItem href="/resumePage">
                     Resume Writing
                   </NavDropDownItem>
                   <NavDropDownItem href="/SalaryCalculator">Salary Calculator
@@ -111,7 +111,7 @@ function Header() {
                   <NavDropDownItem href="careerInfo">
                     Career Path Prior Information
                   </NavDropDownItem>
-                  <NavDropDownItem href="#action/3.4">
+                  <NavDropDownItem href="/workshop">
                     Upcoming Workshop
                   </NavDropDownItem>
                 </NavDropDown>

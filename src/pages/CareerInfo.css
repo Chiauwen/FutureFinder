@@ -16,7 +16,7 @@
 
 .careerbox{
     margin: 2rem auto;
-    width: auto;
+    width: 432px;
     height: auto;
     background: #6C779F;
     border-radius: 53px;
@@ -34,4 +34,5 @@
     line-height: 44px;
     color: #FFFFFF;
     background: #6C779F;
+    border-radius: 19px;
 }

@@ -3,7 +3,25 @@
     flex-direction: column;
     float: left;
     width: 30%;
-    margin-right: 10rem;
+    margin: 8rem 5rem 0 4rem;
+}
+
+.profileNav img{
+    width: 150px;
+    margin-left: 9rem;
+}
+
+.profileNav button{
+    padding: 1.5rem;
+    background-color: transparent;
+    border: none;
+}
+
+.profileNav button:hover{
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    color: #FF5E7C;
 }
 
 .profile:after{
@@ -13,5 +31,8 @@
 }
 
 .profileContent{
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
 
 }
