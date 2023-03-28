@@ -1,0 +1,17 @@
+.profileNav{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 30%;
+    margin-right: 10rem;
+}
+
+.profile:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.profileContent{
+
+}
