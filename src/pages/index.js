@@ -18,3 +18,4 @@ export { default as ResumePage } from './ResumePage';
 export { default as InterviewWritingPage } from './InterviewWritingPage';
 export { default as CompanyPage } from './CompanyPage';
 export { default as CompanyProfile } from './CompanyProfile';
+export { default as Plan } from './Plan'
