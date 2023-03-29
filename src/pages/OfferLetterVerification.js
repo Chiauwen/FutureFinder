@@ -5,7 +5,6 @@ import { Header, PageTitle, Footer } from '../components'
 import Theme from '../Theme.js';
 import './pages.css'
 import './OfferLetterVerification.css'
-import { Button } from 'bootstrap';
 
 const OfferLetterVerification = () => {
   return (
