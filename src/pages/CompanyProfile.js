@@ -85,7 +85,7 @@ const CompanyProfile = () => {
         <ProfileContent title="Reviews" description={profile.reviews}/>
         <Container>
         <Wrapper>
-        <But as={Link} to='/' >Submit Review</But>
+        <But as={Link} to='/offerletterVerification' >Submit Review</But>
         </Wrapper>
         </Container>
       <Footer />
