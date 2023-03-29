@@ -7,6 +7,10 @@ import Theme from '../Theme.js';
 
 const Img = styled.img`
   width: 800px;
+
+  ${props => props.theme.breakpoints.down('lg')} {
+    width: 600px;
+  }
 `;
 
 const Line = styled.div`
@@ -23,6 +27,7 @@ const Title = styled.p`
 
   ${props => props.theme.breakpoints.down('lg')} {
     font-size: ${props => props.theme.fontSizes.medium};
+    text-align: center;
   }
 `;
 

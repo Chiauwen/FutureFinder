@@ -47,7 +47,7 @@ const FeatureCard = ({ index, title, description, route }) => {
   return (
     <Theme>
         <Col lg={index === 0 ? { span: 6, offset: 4 } : { span: 6, offset: 2 }} 
-        md={12}
+        md={12} xxl={index === 0 ? { span: 8, offset: 4 } : { span: 8, offset: 2 }} 
         className="mb-5">
         <Card className="card h-100">
             <Row noGutters>
