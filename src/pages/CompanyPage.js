@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Container, Row, Col, Dropdown, Card, Button } from "react-bootstrap";
 import { Header, PageTitle, Footer} from '../components';
 import { Link } from "react-router-dom";
-import Professional from "./Professional"
+import Company from "./Company"
 
 import styled from 'styled-components'
 import Theme from '../Theme.js';
@@ -70,51 +70,52 @@ const DropDownItem = styled(Dropdown.Item)`
   }
 `;
 
-const ProfessionalPage = () => {
-  const [selectedProfession, setSelectedProfession] = useState("");
+const CompanyPage = () => {
+  const [selectedIndustry, setSelectedIndustry] = useState("");
 
-  const handleProfessionSelect = (eventKey) => {
-    setSelectedProfession(eventKey);
+  const handleIndustrySelect = (eventKey) => {
+    setSelectedIndustry(eventKey);
   };
 
-  const filteredProfessionals = selectedProfession
-    ? Professional.filter((Professional) => {
-        return Professional.profession === selectedProfession;
+  const filteredCompany = selectedIndustry
+    ? Company.filter((Company) => {
+        return Company.industry === selectedIndustry;
       })
-    : Professional;
-    
+    : Company;
+
   return (
     <Theme>
         <div className="Page">
         <Header />
-        <PageTitle title="Professionals" />
+        <PageTitle title="Companies" />
         <Container>
       <Row>
         <Col>
-          <Dropdown onSelect={handleProfessionSelect}>
+          <Dropdown onSelect={handleIndustrySelect}>
             <Filter variant="primary" id="profession-filter">
-              {selectedProfession ? selectedProfession : "Filter by Profession"}
+              {selectedIndustry ? selectedIndustry : "Filter by Industry"}
             </Filter>
 
             <Dropdown.Menu>
               <DropDownItem eventKey="">All</DropDownItem>
-              <DropDownItem eventKey="Engineer">Engineer</DropDownItem>
-              <DropDownItem eventKey="Designer">Designer</DropDownItem>
-              <DropDownItem eventKey="Developer">Developer</DropDownItem>
-              <DropDownItem eventKey="Manager">Manager</DropDownItem>
+              <DropDownItem eventKey="Law">Law</DropDownItem>
+              <DropDownItem eventKey="Manufacturing">Manufacturing</DropDownItem>
+              <DropDownItem eventKey="Logistics">Logistics</DropDownItem>
+              <DropDownItem eventKey="Accounting">Accounting</DropDownItem>
+              <DropDownItem eventKey="Information Technology">Information Technology</DropDownItem>
             </Dropdown.Menu>
           </Dropdown>
         </Col>
       </Row>
       <Row>
-        {filteredProfessionals.map((Professional) => (
-          <Col key={Professional.id} xs={6} lg={4} xl={3} className="my-3">
+        {filteredCompany.map((Company) => (
+          <Col key={Company.id} xs={6} lg={4} xl={3} className="my-3">
             <Individual>
-              <Image variant="top" src={Professional.imageUrl} />
+              <Image variant="top" src={Company.image} />
               <Card.Body>
-                <Card.Title>{Professional.name}</Card.Title>
-                <CardText>{Professional.profession}</CardText>
-                <Link to={`/professionalProfile/${Professional.id}`}>
+                <Card.Title>{Company.name}</Card.Title>
+                <CardText>{Company.industry}</CardText>
+                <Link to={`/companyProfile/${Company.id}`}>
                 <View>View Details</View>
                 </Link>
               </Card.Body>
@@ -129,4 +130,4 @@ const ProfessionalPage = () => {
   );
 };
 
-export default ProfessionalPage;
+export default CompanyPage;
