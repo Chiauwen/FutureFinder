@@ -20,3 +20,4 @@ export { default as CompanyPage } from './CompanyPage';
 export { default as CompanyProfile } from './CompanyProfile';
 export { default as Plan } from './Plan'
 export { default as OfferLetterVerification } from './OfferLetterVerification';
+export { default as PointsGuide } from './PointsGuide';
