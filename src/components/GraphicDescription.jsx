@@ -83,7 +83,7 @@ const GraphicDescription = ({imageSrc, title, description, imagePosition}) =>  {
                   <Title imagePosition={imagePosition}>{title}</Title>
                   <Description imagePosition={imagePosition}>{description}</Description>
                   <Wrapper>
-                    <Register>Register</Register>
+                    <Register>Sign Up</Register>
                   </Wrapper>
                 </Desp>
                 <Col md={7}>

@@ -10,37 +10,37 @@ const data = [
     index: 1,
     title: 'Career Path Analysis',
     description: 'Check what kind of career path suits you',
-    route: 'https://via.placeholder.com/300'
+    route: '/analysis'
   },
   {
     index: 2,
     title: 'Mock Interview',
     description: 'Practice your next interview with an AI',
-    route: 'https://via.placeholder.com/300'
+    route: '/mockCover'
   },
   {
     index: 3,
     title: 'Resume Writing',
     description: 'Find out how to make your resume stand out',
-    route: 'https://via.placeholder.com/300'
+    route: '/ResumePage'
   },
   {
     index: 4,
     title: 'Interview Techniques',
     description: 'Nail your interview with advice from experts',
-    route: 'https://via.placeholder.com/300'
+    route: '/InterviewWritingPage'
   },
   {
     index: 5,
     title: 'Chat With Professional',
     description: 'Get valuable advises from industry professional',
-    route: 'https://via.placeholder.com/300'
+    route: '/professional'
   },
   {
     index: 6,
     title: 'Salary Calculator ',
     description: 'Get what you deserved based on the market',
-    route: 'https://via.placeholder.com/300'
+    route: '/SalaryCalculator'
   }
 ]
 
