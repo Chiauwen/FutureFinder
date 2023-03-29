@@ -7,16 +7,22 @@ import PackageCard from './PackageCard';
 
 const data = [
   {
-    title: 'Free',
+    title: 'Basic',
     description: ['Resume Writing', 'Interview Techniques', 'Career Path Analysis', 'Online Workshop', 'Career Path Information'],
-    button: "Register",
-    route: 'https://via.placeholder.com/300'
+    button: "Sign Up",
+    route: '/signup'
+  },
+  {
+    title: 'Budget',
+    description: ['1 Session Of AI-based Mock Interview','1 Session Of Chatting With Industrial Professional'],
+    button: "Subscribe Now",
+    route: '/Plan'
   },
   {
     title: 'Premium',
     description: ['AI-based Mock Interview','Chat With Industrial Professional','1-on-1 Mentorship'],
     button: "Subscribe Now",
-    route: 'https://via.placeholder.com/300'
+    route: '/Plan'
   }
 ]
 

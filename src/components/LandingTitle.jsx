@@ -6,7 +6,7 @@ import Theme from '../Theme.js';
 
 const Line = styled.div`
   border: 10px solid ${props => props.theme.colors.orange};
-
+  
   ${props => props.theme.breakpoints.down('lg')} {
     border: 5px solid ${props => props.theme.colors.orange};
   }
@@ -23,10 +23,6 @@ const Title = styled.p`
     font-family: ${props => props.theme.fonts};
     color: ${props => props.theme.colors.grape};
     text-align: "center";
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
   ${props => props.theme.breakpoints.down('lg')} {
     font-size: ${props => props.theme.fontSizes.medium};

@@ -1,8 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import { Row, Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
-
-import styled from 'styled-components'
+import {Link} from 'react-router-dom';
+import styled from 'styled-components';
 import Theme from '../Theme.js';
 
 const Img = styled.img`
@@ -51,6 +51,8 @@ const Register = styled(Button)`
   font-weight: ${props => props.theme.fontWeights.bold} !important;
   border: ${props => props.theme.colors.orange};
   padding: 10px 40px;
+  border-radius: 5px !important;
+  text-decoration: none;
 
   &:hover, &:active {
     background-color: ${props => props.theme.colors.black} !important;
@@ -88,7 +90,7 @@ const GraphicDescription = ({imageSrc, title, description, imagePosition}) =>  {
                   <Title imagePosition={imagePosition}>{title}</Title>
                   <Description imagePosition={imagePosition}>{description}</Description>
                   <Wrapper>
-                    <Register>Sign Up</Register>
+                    <Register as={Link} to="/signup">Sign Up</Register>
                   </Wrapper>
                 </Desp>
                 <Col md={7}>
