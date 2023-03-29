@@ -8,7 +8,7 @@ import {
 } from 'react-icons/ai'
 import { RiSecurePaymentFill } from 'react-icons/ri'
 import { GiKidneys } from 'react-icons/gi'
-import profilePic from '../assets/profile1.png';
+import profilePic from '../assets/profile1.png'
 
 const Profile = () => {
   const [activeButton, setActiveButton] = useState('My Dashboard')
@@ -22,67 +22,73 @@ const Profile = () => {
       case 'My Dashboard':
         return (
           <div className="profileContent">
-            <h1>My Dashboard</h1>
-            <p>
-              <strong>Name:</strong> Jane
-            </p>
-            <p>
-              <strong>Role:</strong> Student
-            </p>
-            <p>
-              <strong>University:</strong> Multimedia University
-            </p>
-            <p>
-              <strong>Interested Field:</strong> Engineering
-            </p>
+            <div className="dashboard">
+              <h1>My Dashboard</h1>
+              <p>
+                <strong>Name:</strong> Jane
+              </p>
+              <p>
+                <strong>Role:</strong> Student
+              </p>
+              <p>
+                <strong>University:</strong> Multimedia University
+              </p>
+              <p>
+                <strong>Interested Field:</strong> Engineering
+              </p>
+            </div>
           </div>
         )
       case 'My Profile':
         return (
           <div className="profileContent">
-            <h1>My Profile</h1>
-            <button>Change Profile Picture</button>
-            <p>
-              <strong>Name:</strong> Jane
-            </p>
-            <p>
-              <strong>Role:</strong> Student
-            </p>
-            <p>
-              <strong>University:</strong> Multimedia University
-            </p>
-            <p>
-              <strong>Interested Field:</strong> Engineering
-            </p>
-            <p>
-              <strong>Email:</strong> Jane
-            </p>
-            <p>
-              <strong>Phone Number:</strong> Student
-            </p>
-            <p>
-              <strong>Date of Birth:</strong> Multimedia University
-            </p>
-            <button>Change Password</button>
-            <button id='delete'>DELETE ACCOUNT</button>
+            <div className="myprofile">
+              <h1>My Profile</h1>
+              <button>Change Profile Picture</button>
+              <p>
+                <strong>Name:</strong> Jane
+              </p>
+              <p>
+                <strong>Role:</strong> Student
+              </p>
+              <p>
+                <strong>University:</strong> Multimedia University
+              </p>
+              <p>
+                <strong>Interested Field:</strong> Engineering
+              </p>
+              <p>
+                <strong>Email:</strong> Jane
+              </p>
+              <p>
+                <strong>Phone Number:</strong> Student
+              </p>
+              <p>
+                <strong>Date of Birth:</strong> Multimedia University
+              </p>
+              <button>Change Password</button>
+              <button id="delete">DELETE ACCOUNT</button>
+            </div>
           </div>
         )
       case 'Payments':
         return (
           <div className="profileContent">
-            <h1>Payments</h1>
-            <h5>No Payments Method added...</h5>
-            <h6>Add a new payment method +</h6>
-            <AiOutlineCreditCard />
-            <button>Credit Card</button>
-            <AiOutlineWallet />
-            <button>Ewallet</button>
-            <AiOutlineBank />
-            <button>Online Banking</button>
-            <RiSecurePaymentFill />
-            <button>FPX</button>
-            <GiKidneys />
-            <button>Kidney</button>
+            <div className="payments">
+              <h1>Payments</h1>
+              <p>No Payments Method added...</p>
+              <p>Add a new payment method +</p>
+              <AiOutlineCreditCard />
+              <button>Credit Card</button>
+              <AiOutlineWallet />
+              <button>Ewallet</button>
+              <AiOutlineBank />
+              <button>Online Banking</button>
+              <RiSecurePaymentFill />
+              <button>FPX</button>
+              <GiKidneys />
+              <button>Kidney</button>
+            </div>
           </div>
         )
       case 'Current Plan':
@@ -99,9 +105,9 @@ const Profile = () => {
 
   return (
     <div className="profile">
-      <Header/>
+      <Header />
       <div className="profileNav">
-        <img src={profilePic} id='profilepic'></img>
+        <img src={profilePic} id="profilepic"></img>
         <button
           onClick={() => handleButtonClick('My Dashboard')}
           className={activeButton === 'My Dashboard' ? 'active' : ''}
