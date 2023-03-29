@@ -12,7 +12,7 @@ function Plan() {
       <p>to build your future.</p>
 
       <div className="column">
-        <div className="card">
+        <div className="card plan-card">
           <h2>Basic Plan</h2>
           <p>
             <BiCheck /> Resume Writing Techniques <br />
@@ -24,7 +24,7 @@ function Plan() {
           </p>
         </div>
       
-        <div className="card">
+        <div className="card plan-card">
           <h2>Budget Plan</h2>
           <p>
             <BiHeart /> Everything in basic plan <br />
@@ -36,7 +36,7 @@ function Plan() {
           </p>
         </div>
       
-        <div className="card">
+        <div className="card plan-card">
           <h2>Premium Plan</h2>
           <p>
             <BiHeart /> Everything in basic plan <br />
