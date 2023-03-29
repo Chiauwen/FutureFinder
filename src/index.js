@@ -9,8 +9,7 @@ import {
 import App from './App.js'
 import './index.css'
 import { LoginPage, AnalysisPage, AnalysisResult, MockInterviewCover, MockInterviewPage, MockResultPage, 
-    ProfessionalPage, ProfessionalProfile, SignUp, Profile, SalaryCalculator, ChatPage, CoachingPage, CareerInfo, AccountantInfo, Workshop, ResumePage, InterviewWritingPage} from './pages';
-import OfferLetterVerification from './pages/OfferLetterVerification.js';
+    ProfessionalPage, ProfessionalProfile, SignUp, Profile, SalaryCalculator, ChatPage, CoachingPage, CareerInfo, AccountantInfo, Workshop, ResumePage, InterviewWritingPage, Plan, OfferLetterVerification} from './pages';
 
 const router = createBrowserRouter([
     {

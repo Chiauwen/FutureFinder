@@ -9,6 +9,7 @@ import {
 import { RiSecurePaymentFill } from 'react-icons/ri'
 import { GiKidneys } from 'react-icons/gi'
 import profilePic from '../assets/profile1.png'
+import { Link } from 'react-router-dom'
 
 const Profile = () => {
   const [activeButton, setActiveButton] = useState('My Dashboard')
@@ -95,7 +96,13 @@ const Profile = () => {
         return (
           <div className="profileContent">
             <h1>Current Plan</h1>
+
             <p>Basic Plan</p>
+
+            <Link to="/Plan">
+              <button>Buy Plan</button>
+            </Link>
+
           </div>
         )
       default:
