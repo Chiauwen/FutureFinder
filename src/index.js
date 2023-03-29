@@ -10,6 +10,7 @@ import App from './App.js'
 import './index.css'
 import { LoginPage, AnalysisPage, AnalysisResult, MockInterviewCover, MockInterviewPage, MockResultPage, 
     ProfessionalPage, ProfessionalProfile, SignUp, Profile, SalaryCalculator, ChatPage, CoachingPage, CareerInfo, AccountantInfo, Workshop, ResumePage, InterviewWritingPage} from './pages';
+import OfferLetterVerification from './pages/OfferLetterVerification.js';
 
 const router = createBrowserRouter([
     {
@@ -88,6 +89,10 @@ const router = createBrowserRouter([
     {
         path: "/interviewWritingPage",
         element: <InterviewWritingPage />,
+    },
+    {
+        path: "/offerletterVerification",
+        element: <OfferLetterVerification />,
     },
   ]);
 
