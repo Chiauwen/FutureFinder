@@ -73,9 +73,11 @@ const ProfileContent = ({title, description}) =>  {
                 ))}
               </UnorderedList>
             ) : title === 'Reviews' && Array.isArray(description) ? (
-              description.map((review) => (
+              <UnorderedList>
+              {description.map((review) => (
                 <StyledLi key={review.id}>{review.comment}</StyledLi>
-              ))
+              ))}
+              </UnorderedList>
             ) : (
               <Description>{description}</Description>
             )}
