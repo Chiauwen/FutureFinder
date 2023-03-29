@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Button, Row } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 import styled from 'styled-components'
 import Theme from '../Theme.js';
@@ -57,9 +58,10 @@ const FeatureCard = ({ index, title, description, route }) => {
                     </div>
                 </Col>
                 <Col md={4}>
-                    <div className="card-body d-flex justify-content-center align-items-center">
+                    <Link to={route} className="card-body d-flex justify-content-center align-items-center"
+                    style={{textDecoration:'none'}}>
                         <HeadOver>Head Over</HeadOver>
-                    </div>
+                    </Link>
                 </Col>
             </Row>
         </Card>
