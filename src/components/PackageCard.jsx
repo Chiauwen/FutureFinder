@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Button, Row } from 'react-bootstrap';
-
+import {Link} from "react-router-dom";
 import styled from 'styled-components'
 import Theme from '../Theme.js';
 
@@ -35,6 +35,8 @@ const HeadOver = styled(Button)`
   font-size: 15px;
   font-weight: ${props => props.theme.fontWeights.bold} !important;
   border: ${props => props.theme.colors.orange};
+  border-radius: 5px !important;
+  text-decoration: none;
   padding: 10px 40px;
 
   &:hover, &:active {
@@ -67,7 +69,7 @@ const PackageCard = ({ title, description, route, button }) => {
                             ))}
                     </Description>
                     <div className="card-body d-flex justify-content-center align-items-center">
-                        <HeadOver>{button}</HeadOver>
+                        <HeadOver as={Link} to={route}>{button}</HeadOver>
                     </div>
                 </RowCentered>
             </Card>
