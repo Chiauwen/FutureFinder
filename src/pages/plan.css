@@ -21,7 +21,7 @@
   align-items: center;
 }
 
-.card {
+.plan-card {
   margin: 1rem;
   padding: 2rem;
   border: 1px solid #ccc;
@@ -31,18 +31,18 @@
   border-radius: 20px;
 }
 
-.card:hover {
+.plan-card:hover {
   box-shadow: 1rem 1rem 1rem 1rem grey;
 }
 
-.card h5 {
+.plan-card h5 {
   padding: 1.4rem 1.4rem 0 1.4rem;
   font-size: 27px;
   font-family: 'Montserrat';
   font-weight: 700;
 }
 
-.card h6 {
+.plan-card h6 {
   margin-top: 1rem;
   font-size: 15px;
   font-family: 'Montserrat';
@@ -50,7 +50,7 @@
   font-weight: 500;
 }
 
-.card button {
+.plan-card button {
   border-radius: 30px;
   font-size: 20px;
   font-weight: 500;
@@ -60,7 +60,7 @@
   color: black;
 }
 
-.card button:hover {
+.plan-card button:hover {
   color: #ffb756;
   background-color: black;
 }

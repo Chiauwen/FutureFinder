@@ -114,7 +114,7 @@ const Profile = () => {
     <div className="profile">
       <Header />
       <div className="profileNav">
-        <img src={profilePic} id="profilepic"></img>
+        <img src={profilePic} id="profilepic" alt='profile'></img>
         <button
           onClick={() => handleButtonClick('My Dashboard')}
           className={activeButton === 'My Dashboard' ? 'active' : ''}

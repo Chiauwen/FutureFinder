@@ -8,8 +8,13 @@ import {
   } from "react-router-dom";
 import App from './App.js'
 import './index.css'
+<<<<<<< HEAD
 import { LoginPage, AnalysisPage, AnalysisResult, MockInterviewCover, MockInterviewPage, MockResultPage, 
     ProfessionalPage, ProfessionalProfile, SignUp, Profile, SalaryCalculator, ChatPage, CoachingPage, CareerInfo, AccountantInfo, Workshop, ResumePage, InterviewWritingPage, Plan, ProfileStudent} from './pages';
+=======
+import { LoginPage,CompanyProfile, CompanyPage, AnalysisPage, AnalysisResult, MockInterviewCover, MockInterviewPage, MockResultPage, 
+    ProfessionalPage, ProfessionalProfile, SignUp, Profile, SalaryCalculator, ChatPage, CoachingPage, CareerInfo, AccountantInfo, Workshop, ResumePage, InterviewWritingPage, Plan, OfferLetterVerification, PointsGuide} from './pages';
+>>>>>>> bd967a12aca08cd09b1a116606ec0a04fbd32163
 
 const router = createBrowserRouter([
     {
@@ -90,8 +95,24 @@ const router = createBrowserRouter([
         element: <InterviewWritingPage />,
     },
     {
+        path: "/companyPage",
+        element: <CompanyPage />,
+    },
+    {
+        path: "/companyProfile/:id",
+        element: <CompanyProfile />,
+    },
+    {
         path: "/Plan",
         element: <Plan />,
+    },
+    {
+        path: "/offerletterVerification",
+        element: <OfferLetterVerification />,
+    },
+    {
+        path: "/pointsGuide",
+        element: <PointsGuide />,
     },
   ]);
 

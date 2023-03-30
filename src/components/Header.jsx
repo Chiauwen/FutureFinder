@@ -114,6 +114,9 @@ function Header() {
                   <NavDropDownItem href="/workshop">
                     Upcoming Workshop
                   </NavDropDownItem>
+                  <NavDropDownItem href="/companyPage">
+                    Company Review
+                  </NavDropDownItem>
                 </NavDropDown>
                 <NavLink as={Link} to='/login'>
                   <Register>Login</Register>

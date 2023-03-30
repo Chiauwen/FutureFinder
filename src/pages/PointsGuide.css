@@ -1,0 +1,22 @@
+.points-title{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.points-p{
+    font-size: 20px;
+}
+
+.points-img{
+    width: 1000px;
+    height: auto;
+    margin: 2rem 0;
+}
+
+.points-heading{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+    border: solid black;
+}

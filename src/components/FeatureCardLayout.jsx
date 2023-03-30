@@ -41,6 +41,12 @@ const data = [
     title: 'Salary Calculator ',
     description: 'Get what you deserved based on the market',
     route: '/SalaryCalculator'
+  },
+  {
+    index: 7,
+    title: 'Company Review',
+    description: 'Check what the others think about the company',
+    route: '/CompanyPage'
   }
 ]
 
