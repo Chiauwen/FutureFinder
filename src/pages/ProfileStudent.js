@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Header } from '../components'
+import { Header, Footer} from '../components'
 import './profilestudent.css'
 import {
   AiOutlineCreditCard,
@@ -117,6 +117,7 @@ const Profile = () => {
   }
 
   return (
+    <div className='Page'>
     <div className="profile">
       <Header />
       <div className="profileNav">
@@ -147,6 +148,8 @@ const Profile = () => {
         </button>
       </div>
       <div className="profileContent">{renderContent()}</div>
+    </div>
+    <Footer />
     </div>
   )
 }

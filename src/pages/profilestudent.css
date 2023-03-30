@@ -4,7 +4,7 @@
     float: left;
     align-items: center;
     width: 30%;
-    margin: 8rem 5rem 3rem 4rem;
+    margin: 4rem 5rem 3rem 4rem;
     font-size: 25px;
     box-shadow: 5px 10px 8px 10px grey;
     border-radius: 2rem;
@@ -34,7 +34,7 @@
 }
 
 .profileContent{
-    margin: 5rem;
+    margin: 0 5rem 5rem 5rem;
     display: flex;
     flex-direction: column;
     
