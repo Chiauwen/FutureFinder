@@ -6,10 +6,25 @@ import Theme from '../Theme.js';
 import image from '../assets/profile1.png';
 import placeholderImage from '../assets/nocam.png';
 
+const profiles = [];
+for (let i = 1; i <= 6; i++) {
+  profiles.push(require(`../assets/profile${i}.png`));
+}
+
 const Img = styled.img` 
   width:100%;
   height:500px;
-  padding: 50px;
+  padding: 20px;
+
+  ${props => props.theme.breakpoints.down('lg')} {
+    height:300px;
+  }
+`;
+
+const Participants = styled.img` 
+  width:50%;
+  height:150px;
+  padding: 20px;
 
   ${props => props.theme.breakpoints.down('lg')} {
     height:300px;
@@ -85,19 +100,24 @@ const CoachingPage = () => {
      <div className='Page'>
       <Header />
       <Container>
-        <PageTitle title="1 on 1 Coaching" />
+        <PageTitle title="Group Coaching" />
         <GoBack route="/professional"/>
           <Wrapper>
             <Row>
-            <Col md={6}>
+            <Col md={4}>
+              <Img src={image} alt="Mentor's video" />
+            </Col>
+            <Col md={4}>
               {isStreaming ? (
                 <Video ref={videoRef} muted autoPlay></Video>
               ) : (
                 <Img src={placeholderImage} alt="Placeholder" />
               )}
             </Col>
-            <Col md={6}>
-              <Img src={image} alt="Mentor's video" />
+            <Col md={4}>
+              {[...Array(6)].map((_, i) => (
+                <Participants key={i} src={profiles[i]} alt="Placeholder" />
+              ))}
             </Col>
             </Row>
             <Button variant={isStreaming ? 'danger' : 'success'} onClick={handleToggleStream}>

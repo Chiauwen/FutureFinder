@@ -104,7 +104,7 @@ function Footer() {
             </Col>
             <Col lg={6}>
             <ul className="list-unstyled">
-            <li><StyledLink to="/mockCover">Chat With Professional and 1-1 Coaching</StyledLink></li>
+            <li><StyledLink to="/mockCover">Chat With Professional and Group Coaching</StyledLink></li>
               <li><StyledLink to="/mockCover">AI Mock Interview</StyledLink></li>
               <li><StyledLink to="/mockCover">Career Path Prior Information</StyledLink></li>
               <li><StyledLink to="/mockCover">Upcoming Workshop</StyledLink></li>

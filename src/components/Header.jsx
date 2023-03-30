@@ -56,6 +56,7 @@ const NavDropDown = styled(NavDropdown)`
   justify-content: center;
   padding: 6px 20px;
   align-items: center;
+  width: 200px;
 
   &:hover {
     color: ${props => props.theme.colors.pink};
@@ -103,7 +104,7 @@ function Header() {
                   <NavDropDownItem href="/SalaryCalculator">Salary Calculator
                   </NavDropDownItem>
                   <NavDropDownItem as={Link} to='/professional'>
-                    Chat With Professional and 1-1 Coaching
+                    Chat With Professional and Group Coaching
                   </NavDropDownItem>
                   <NavDropDownItem as={Link} to='/mockCover'>
                     AI Mock Interview
