@@ -11,17 +11,21 @@ function LoginPage() {
           <Form className="signup-input">
             <h2>Login</h2>
 
+            <button className='mentorlogin' id='mentor'>Login as mentor</button>
+
             <div className="signup-content">
               <input type="email" placeholder="Email"></input>
 
               <input type="password" placeholder="Password"></input>
-
-              <Link to="/Profile">
+              
+              <Link to="/ProfileStudent">
                 <button type="submit" className="btn btn-primary">
                   Login
                 </button>
               </Link>
             </div>
+
+            
           </Form>
 
           <div className="login">

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Header } from '../components'
-import './profile.css'
+import './profilestudent.css'
 import {
   AiOutlineCreditCard,
   AiOutlineWallet,

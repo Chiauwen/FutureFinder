@@ -9,7 +9,7 @@ import {
 import App from './App.js'
 import './index.css'
 import { LoginPage, AnalysisPage, AnalysisResult, MockInterviewCover, MockInterviewPage, MockResultPage, 
-    ProfessionalPage, ProfessionalProfile, SignUp, Profile, SalaryCalculator, ChatPage, CoachingPage, CareerInfo, AccountantInfo, Workshop, ResumePage, InterviewWritingPage, Plan} from './pages';
+    ProfessionalPage, ProfessionalProfile, SignUp, Profile, SalaryCalculator, ChatPage, CoachingPage, CareerInfo, AccountantInfo, Workshop, ResumePage, InterviewWritingPage, Plan, ProfileStudent} from './pages';
 
 const router = createBrowserRouter([
     {
@@ -17,8 +17,8 @@ const router = createBrowserRouter([
       element: <App />,
     },
     {
-        path: "/profile",
-        element: <Profile />,
+        path: "/ProfileStudent",
+        element: <ProfileStudent />,
     },
     {
         path: "/login",

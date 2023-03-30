@@ -22,12 +22,14 @@
   text-align: center;
 }
 
-.signup-content label {
-  font-family: 'Lato';
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 42px;
-  text-align: left;
+.mentorlogin{
+  background-color: transparent;
+  border: none;
+  margin-bottom: 2rem;
+  color: #FF5E7C;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .signup-content input {
@@ -45,6 +47,10 @@
   text-align: center;
   display: flex;
   background: transparent;
+}
+
+.signup-content input:active{
+  border: none;
 }
 
 

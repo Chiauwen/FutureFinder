@@ -7,7 +7,7 @@ export { default as MockResultPage } from './MockResultPage'
 export { default as ProfessionalPage } from './ProfessionalPage'
 export { default as ProfessionalProfile } from './ProfessionalProfile'
 export { default as SignUp } from './SignUp'
-export { default as Profile } from './Profile'
+export { default as ProfileStudent } from './ProfileStudent'
 export { default as SalaryCalculator } from './SalaryCalculator';
 export { default as ChatPage } from './ChatPage';
 export { default as CareerInfo } from './CareerInfo';
