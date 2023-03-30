@@ -10,6 +10,7 @@ import { RiSecurePaymentFill } from 'react-icons/ri'
 import { GiKidneys } from 'react-icons/gi'
 import profilePic from '../assets/profile1.png'
 import { Link } from 'react-router-dom'
+import { PointsGuide } from './PointsGuide'
 
 const Profile = () => {
   const [activeButton, setActiveButton] = useState('My Dashboard')
@@ -37,6 +38,12 @@ const Profile = () => {
               <p>
                 <strong>Interested Field:</strong> Engineering
               </p>
+
+              <h5>Available points: 20</h5>
+
+              <Link to="/PointsGuide">
+                <button className="pointsguide">Get More Points Now! </button>
+              </Link>
             </div>
           </div>
         )
@@ -102,7 +109,6 @@ const Profile = () => {
             <Link to="/Plan">
               <button>Buy Plan</button>
             </Link>
-
           </div>
         )
       default:
@@ -114,7 +120,7 @@ const Profile = () => {
     <div className="profile">
       <Header />
       <div className="profileNav">
-        <img src={profilePic} id="profilepic" alt='profile'></img>
+        <img src={profilePic} id="profilepic" alt="profile"></img>
         <button
           onClick={() => handleButtonClick('My Dashboard')}
           className={activeButton === 'My Dashboard' ? 'active' : ''}

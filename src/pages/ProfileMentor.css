@@ -86,12 +86,12 @@
     background-color: red;
 }
 
-.payments p{
+.wallet p{
     align-items: left;
     padding-bottom: 2rem;
 }
 
-.payments button{
+.wallet button{
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
@@ -100,7 +100,7 @@
     border: none;
 }
 
-.payments button:hover{
+.wallet button:hover{
     color: lightskyblue;
     text-decoration: underline;
 }

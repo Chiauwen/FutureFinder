@@ -5,38 +5,40 @@ import { Link } from 'react-router-dom'
 
 function LoginPage() {
   return (
-    <div className='Page'>
-    <Header />
-    <div className="signup">
-          <Form className="signup-input">
-            <h2>Login</h2>
+    <div className="Page">
+      <Header />
+      <div className="signup">
+        <Form className="signup-input">
+          <h2>Login</h2>
 
-            <button className='mentorlogin' id='mentor'>Login as mentor</button>
+          <Link to="/ProfileMentor">
+            <button className="mentorlogin" id="mentor">
+              Login as mentor
+            </button>
+          </Link>
 
-            <div className="signup-content">
-              <input type="email" placeholder="Email"></input>
+          <div className="signup-content">
+            <input type="email" placeholder="Email"></input>
 
-              <input type="password" placeholder="Password"></input>
-              
-              <Link to="/ProfileStudent">
-                <button type="submit" className="btn btn-primary">
-                  Login
-                </button>
-              </Link>
-            </div>
+            <input type="password" placeholder="Password"></input>
 
-            
-          </Form>
-
-          <div className="login">
-            <p>New to FutureFinder?</p>
-
-            <Link to="/SignUp">
-              <button className="login">Join Now!</button>
+            <Link to="/ProfileStudent">
+              <button type="submit" className="btn btn-primary">
+                Login
+              </button>
             </Link>
           </div>
+        </Form>
+
+        <div className="login">
+          <p>New to FutureFinder?</p>
+
+          <Link to="/SignUp">
+            <button className="login">Join Now!</button>
+          </Link>
         </div>
-        <Footer />
+      </div>
+      <Footer />
     </div>
   )
 }
