@@ -1,4 +1,4 @@
-import { Header } from '../components'
+import { Header, PageTitle, Footer } from '../components';
 import React from 'react'
 import { Bar } from 'react-chartjs-2'
 import './SalaryCalculator.css'
@@ -46,7 +46,7 @@ function SalaryCalculator() {
     <div className='Page'>
       <div className="salarycalculator">
       <Header />
-      <h2>Salary Calculator</h2>
+      <PageTitle title="Salary Calculator"/>
       <h5>Know your worth.</h5>
 
       <div className="selection">
@@ -72,6 +72,7 @@ function SalaryCalculator() {
       <div className="chart">
         <Bar data={data} options={options} width={100} height={30} />
       </div>
+      <Footer />
     </div>
     </div>
   )
