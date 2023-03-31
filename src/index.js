@@ -29,6 +29,7 @@ import {
   OfferLetterVerification,
   PointsGuide,
   ProfileMentor,
+  Tokens
 } from './pages'
 
 const router = createBrowserRouter([
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
   {
     path: '/ProfileMentor',
     element: <ProfileMentor />,
+  },
+  {
+    path: '/Tokens',
+    element: <Tokens />,
   },
   {
     path: '/login',

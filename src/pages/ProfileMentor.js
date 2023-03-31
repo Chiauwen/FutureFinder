@@ -42,8 +42,8 @@ const Profile = () => {
               <h5>Available tokens: 20</h5>
               <p>1 token = RM 1</p>
 
-              <Link to="/PointsGuide">
-                <button className="pointsguide">Get More Tokens Now! </button>
+              <Link to="/Tokens">
+                <button className="tokens">Get More Tokens Now! </button>
               </Link>
             </div>
           </div>
