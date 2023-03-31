@@ -29,6 +29,8 @@ import {
   OfferLetterVerification,
   PointsGuide,
   ProfileMentor,
+  CoursePage,
+  CourseDetails,
 } from './pages'
 
 const router = createBrowserRouter([
@@ -132,6 +134,14 @@ const router = createBrowserRouter([
   {
     path: '/pointsGuide',
     element: <PointsGuide />,
+  },
+  {
+    path: '/coursePage',
+    element: <CoursePage />,
+  },
+  {
+    path: '/courseDetails/:id',
+    element: <CourseDetails />,
   },
 ])
 
