@@ -1,4 +1,5 @@
 .profileNav{
+    color: white;
     display: flex;
     flex-direction: column;
     float: left;
@@ -8,6 +9,7 @@
     font-size: 25px;
     box-shadow: 5px 10px 8px 10px grey;
     border-radius: 2rem;
+    
 }
 
 .profileNav img{

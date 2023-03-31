@@ -86,7 +86,7 @@ const Profile = () => {
           <div className="profileContent">
             <div className="wallet">
               <h1>Wallet</h1>
-              <p>No Banking Method added...</p>
+              <p>No Withdrawal Method added...</p>
               <p>Add a new banking method +</p>
               <AiOutlineWallet />
               <button>Ewallet</button>
