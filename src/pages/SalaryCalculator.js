@@ -43,7 +43,8 @@ function SalaryCalculator() {
   };
 
   return (
-    <div className="salarycalculator">
+    <div className='Page'>
+      <div className="salarycalculator">
       <Header />
       <h2>Salary Calculator</h2>
       <h5>Know your worth.</h5>
@@ -71,6 +72,7 @@ function SalaryCalculator() {
       <div className="chart">
         <Bar data={data} options={options} width={100} height={30} />
       </div>
+    </div>
     </div>
   )
 }

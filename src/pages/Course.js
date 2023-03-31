@@ -3,7 +3,7 @@ const Course = [
       id: 1,
       title: "Learn How To Craft",
       professional: "Jane Smith",
-      image: "https://o.remove.bg/downloads/73834e7c-1d84-4e17-87e5-5bb48aefb3d5/design-removebg-preview.png",
+      image: "https://img.freepik.com/free-vector/art-workshop-studio_74855-5217.jpg?w=996&t=st=1680266285~exp=1680266885~hmac=68932c815ffd29858bb40ccb51a3cc9a2dbdee66f4902b0c4ea57e4fcf9c08c7",
       maxparticipants: 30,
       intro: "Discover the joy of making beautiful handmade homeware, accessories, art and gifts with our online craft courses. Learn plenty of creative tricks, tips, and techniques from industry-leading figures, and become inspired to create more of the things you love.",
       date: "14th March 2023",
