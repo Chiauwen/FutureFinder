@@ -1,3 +1,11 @@
+.profile{
+    margin-top: -5rem;
+}
+
+.profile p{
+    font-weight: 400;
+}
+
 .profileNav{
     color: white;
     display: flex;
@@ -9,7 +17,6 @@
     font-size: 25px;
     box-shadow: 5px 10px 8px 10px grey;
     border-radius: 2rem;
-    
 }
 
 .profileNav img{
@@ -36,18 +43,18 @@
 }
 
 .profileContent{
-    margin: 5rem;
+    margin-top: 2.5rem;
     display: flex;
     flex-direction: column;
-    
 }
 
 .profileContent h1{
     font-family: 'Montserrat';
+    font-weight: 500;
     margin-bottom: 1rem;
 }
 
-.dashboard, .myprofile{
+.dashboard, .myprofile, .wallet, .services{
     margin-top: 4rem;
     font-size: 20px;
     line-height: 4rem;
@@ -88,9 +95,8 @@
     background-color: red;
 }
 
-.wallet p{
-    align-items: left;
-    padding-bottom: 2rem;
+.wallet{
+    margin-top: 4rem;
 }
 
 .wallet button{
@@ -103,6 +109,23 @@
 }
 
 .wallet button:hover{
+    color: lightskyblue;
+    text-decoration: underline;
+}
+
+.services h4{
+    margin-top: 2rem;
+    font-size: 30px;
+}
+
+.services button{
+    display: flex;
+    font-display: column;
+    background-color: transparent;
+    border: none;
+}
+
+.services button:hover{
     color: lightskyblue;
     text-decoration: underline;
 }

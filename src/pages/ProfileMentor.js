@@ -1,13 +1,11 @@
 import React, { useState } from 'react'
 import { Header, Footer } from '../components'
-import './profilestudent.css'
+import './ProfileMentor.css'
 import {
-  AiOutlineCreditCard,
   AiOutlineWallet,
   AiOutlineBank,
 } from 'react-icons/ai'
 import { RiSecurePaymentFill } from 'react-icons/ri'
-import { GiKidneys } from 'react-icons/gi'
 import profilePic from '../assets/profile2.png'
 import { Link } from 'react-router-dom'
 
@@ -17,6 +15,17 @@ const Profile = () => {
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName)
   }
+
+  const course1 = () => {
+    var x = document.getElementById('course1')
+    if (x.style.display === 'none') {
+      x.style.display = 'block'
+    } else {
+      x.style.display = 'none'
+    }
+  }
+
+  const course2 = () => {}
 
   const renderContent = () => {
     switch (activeButton) {
@@ -40,7 +49,6 @@ const Profile = () => {
               </p>
 
               <h5>Available tokens: 20</h5>
-              <p>1 token = RM 1</p>
 
               <Link to="/Tokens">
                 <button className="tokens">Get More Tokens Now! </button>
@@ -104,12 +112,24 @@ const Profile = () => {
               <h1>Current Offered Services</h1>
 
               <h4>Professional Chat</h4>
-              <p>Industry field: IT/Software Engineering</p>
-
-              <h4>Group Coahching</h4>
+              <p>
+                <strong>Expert Field: </strong>IT/Software Engineering
+              </p>
+              <h4>Group Coaching</h4>
               <h5>Courses:</h5>
-              <p>Get yourself ready in real IT industry</p>
-              <p>AI Evolution</p>
+
+              <button onClick={course1}>
+                Get yourself ready in real IT industry
+              </button>
+              <div id="course1">
+                <h5>descriptions:</h5>
+                <p></p>
+              </div>
+
+              <button onClick={course2}>AI Evolution</button>
+              <div id='course2'>
+                <h5>descriptions:</h5>
+              </div>
             </div>
           </div>
         )
@@ -119,39 +139,39 @@ const Profile = () => {
   }
 
   return (
-    <div className='Page'>
-    <div className="profile">
-      <Header />
-      <div className="profileNav">
-        <img src={profilePic} id="profilepic" alt="profile"></img>
-        <button
-          onClick={() => handleButtonClick('My Dashboard')}
-          className={activeButton === 'My Dashboard' ? 'active' : ''}
-        >
-          My Dashboard
-        </button>
-        <button
-          onClick={() => handleButtonClick('My Profile')}
-          className={activeButton === 'My Profile' ? 'active' : ''}
-        >
-          My Profile
-        </button>
-        <button
-          onClick={() => handleButtonClick('wallet')}
-          className={activeButton === 'wallet' ? 'active' : ''}
-        >
-          Wallet
-        </button>
-        <button
-          onClick={() => handleButtonClick('My Services')}
-          className={activeButton === 'My Services' ? 'active' : ''}
-        >
-          My Services
-        </button>
+    <div className="Page">
+      <div className="profile">
+        <Header />
+        <div className="profileNav">
+          <img src={profilePic} id="profilepic" alt="profile"></img>
+          <button
+            onClick={() => handleButtonClick('My Dashboard')}
+            className={activeButton === 'My Dashboard' ? 'active' : ''}
+          >
+            My Dashboard
+          </button>
+          <button
+            onClick={() => handleButtonClick('My Profile')}
+            className={activeButton === 'My Profile' ? 'active' : ''}
+          >
+            My Profile
+          </button>
+          <button
+            onClick={() => handleButtonClick('wallet')}
+            className={activeButton === 'wallet' ? 'active' : ''}
+          >
+            Wallet
+          </button>
+          <button
+            onClick={() => handleButtonClick('My Services')}
+            className={activeButton === 'My Services' ? 'active' : ''}
+          >
+            My Services
+          </button>
+        </div>
+        <div className="profileContent">{renderContent()}</div>
       </div>
-      <div className="profileContent">{renderContent()}</div>
-    </div>
-    <Footer />
+      <Footer />
     </div>
   )
 }
