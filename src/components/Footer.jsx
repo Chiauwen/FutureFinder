@@ -109,7 +109,7 @@ function Footer() {
               <li><StyledLink to="/mockCover">AI Mock Interview</StyledLink></li>
               <li><StyledLink to="/careerInfo">Career Path Prior Information</StyledLink></li>
               <li><StyledLink to="/workshop">Upcoming Workshop</StyledLink></li>
-              <li><StyledLink to="/companyPage">Company Review</StyledLink></li>
+              <li><StyledLink to="/programPage">FuturePath Partner Program</StyledLink></li>
             </ul>
             </Col>
            </Row>

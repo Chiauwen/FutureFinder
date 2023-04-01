@@ -69,6 +69,7 @@ const CompanyProfile = () => {
           <Image variant="top" src={profile.image} />
           <h2>{profile.programme}</h2>
           <h2>{profile.name}</h2>
+          <h2>{profile.length}</h2>
           <h2>{profile.industry} | {profile.location}</h2>
         </Wrapper>
         <Container>
