@@ -4,6 +4,8 @@ import { Bar } from 'react-chartjs-2'
 import './SalaryCalculator.css'
 import Chart from 'chart.js/auto'
 import { LinearScale, CategoryScale } from 'chart.js'
+import { Footer } from '../components'
+import { PageTitle } from '../components'
 
 Chart.register(LinearScale, CategoryScale)
 
@@ -51,52 +53,52 @@ function SalaryCalculator() {
   }
 
   return (
-    <div className='Page'>
+    <div className="Page">
       <div className="salarycalculator">
-      <Header />
-      <PageTitle title="Salary Calculator"/>
-      <h5>Know your worth.</h5>
+        <Header />
+        <PageTitle title="Salary Calculator" />
+        <h5>Know your worth.</h5>
 
-      <div className="selection">
-        <select
-          name="Job"
-          id="job"
-          value={job}
-          onChange={(e) => setJob(e.target.value)}
-        >
-          <option value="engineer">Engineer</option>
-          <option value="accountant">Accountant</option>
-          <option value="data-analyst">Data Analyst</option>
-          <option value="lab-researcher">Lab Researcher</option>
-        </select>
-        <select
-          name="levels"
-          id="levels"
-          value={level}
-          onChange={(e) => setLevel(e.target.value)}
-        >
-          <option value="internship">Internship</option>
-          <option value="junior">Junior</option>
-          <option value="senior">Senior</option>
-          <option value="executive">Executive</option>
-        </select>
-        <select
-          name="type"
-          id="type"
-          value={type}
-          onChange={(e) => setType(e.target.value)}
-        >
-          <option value="fulltime">Full time</option>
-          <option value="contract">Contract based</option>
-          <option value="temporary">Temporary</option>
-        </select>
-      </div>
+        <div className="selection">
+          <select
+            name="Job"
+            id="job"
+            value={job}
+            onChange={(e) => setJob(e.target.value)}
+          >
+            <option value="engineer">Engineer</option>
+            <option value="accountant">Accountant</option>
+            <option value="data-analyst">Data Analyst</option>
+            <option value="lab-researcher">Lab Researcher</option>
+          </select>
+          <select
+            name="levels"
+            id="levels"
+            value={level}
+            onChange={(e) => setLevel(e.target.value)}
+          >
+            <option value="internship">Internship</option>
+            <option value="junior">Junior</option>
+            <option value="senior">Senior</option>
+            <option value="executive">Executive</option>
+          </select>
+          <select
+            name="type"
+            id="type"
+            value={type}
+            onChange={(e) => setType(e.target.value)}
+          >
+            <option value="fulltime">Full time</option>
+            <option value="contract">Contract based</option>
+            <option value="temporary">Temporary</option>
+          </select>
+        </div>
 
-      <div className="chart">
-        <Bar data={data} options={options} width={100} height={30} />
+        <div className="chart">
+          <Bar data={data} options={options} width={100} height={30} />
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
     </div>
   )
   changechart()
