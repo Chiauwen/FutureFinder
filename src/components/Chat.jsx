@@ -52,14 +52,14 @@ const Send = styled(Button)`
 
 const Chat = () => {
   const [chatMessages, setChatMessages] = useState([
-    { name: 'Me', isMe:true, message: "Hi, I'm interested in pursuing a career in UI design. Can you tell me a little about what it entails?", time: '12:30 PM' },
-    { name: 'Jane Smith', isMe:false, message: "Absolutely! UI design involves creating the visual components of digital products, such as websites and mobile apps. This can include everything from layouts and typography to color schemes and iconography.", time: '12:31 PM' },
-    { name: 'Me', isMe:true, message: "That sounds really interesting. What kind of skills do you need to be a successful UI designer?", time: '12:32 PM' },
-    { name: 'Jane Smith', isMe:false, message: "Well, creativity and an eye for detail are definitely important, as is a good understanding of design principles and software tools like Adobe Photoshop and Sketch. It's also important to have good communication and collaboration skills, since you'll often be working closely with developers and other designers on a project.", time: '12:33 PM' },
-    { name: 'Me', isMe:true, message: "Okay, that makes sense. What kind of education or training do you need to become a UI designer?", time: '12:34 PM' },
-    { name: 'Jane Smith', isMe:false, message: "While it's possible to learn UI design on your own, many employers prefer to see a degree or certification in design, art, or a related field. There are also many online courses and tutorials available that can help you develop the necessary skills.", time: '12:35 PM' },
-    { name: 'Me', isMe:true, message: "Thanks for the advice! I'm really excited to explore this career path further.", time: '12:36 PM' },
-    { name: 'Jane Smith', isMe:false, message: "You're welcome! UI design is a great field with a lot of opportunities for growth and creativity. Good luck on your journey!", time: '12:37 PM' },
+    { name: 'Me', isMe:true, message: "Hi, I'm interested in learning more about the software development industry. Can you tell me a little bit about your experience?", time: '12:30 PM' },
+    { name: 'Bob Johnson', isMe:false, message: "Sure, I've been working in the software development industry for over 15 years now. I've worked on a variety of projects, from building mobile apps to developing enterprise software.", time: '12:31 PM' },
+    { name: 'Me', isMe:true, message: "Wow, that's impressive! What do you think are the most important skills for a software developer to have?", time: '12:32 PM' },
+    { name: 'Bob Johnson', isMe:false, message: "I think there are a few key skills that every developer should have. Firstly, you need to be able to write clean, well-structured code. This is important because it makes it easier for other developers to read and understand your code. Secondly, you need to have good problem-solving skills. As a developer, you'll often come across complex problems that require creative solutions. Finally, you need to be able to work well in a team. Software development is rarely a solo activity, so being able to collaborate with others is essential.", time: '12:33 PM' },
+    { name: 'Me', isMe:true, message: "That makes sense. What programming languages do you think are the most important to learn?", time: '12:34 PM' },
+    { name: 'Bob Johnson', isMe:false, message: "There are a lot of programming languages out there, and the answer to this question really depends on what you want to do. However, I would say that some of the most important languages to learn include Java, Python, and JavaScript. Java is used heavily in enterprise development, Python is great for scientific computing and data analysis, and JavaScript is the language of the web.", time: '12:35 PM' },
+    { name: 'Me', isMe:true, message: "Thanks for sharing your insights. Do you have any advice for someone who is just starting out in the industry?", time: '12:36 PM' },
+    { name: 'Bob Johnson', isMe:false, message: "My advice would be to never stop learning. The software development industry is constantly evolving, so it's important to stay up-to-date with the latest technologies and trends. Don't be afraid to ask questions, and don't be afraid to make mistakes. The best way to learn is by doing, so don't be afraid to get your hands dirty and start building things. Finally, find a mentor or a community of developers who can help guide you and provide support along the way.", time: '12:37 PM' },
   ]);
 
   const [message, setMessage] = useState('');
