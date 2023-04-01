@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 import { useState, useEffect } from 'react'
 import { Header } from '../components'
-=======
-import { Header, PageTitle, Footer } from '../components';
-import React from 'react'
->>>>>>> e2fd73afc57f3b4b0909e9af6032a6b9752ecaaa
 import { Bar } from 'react-chartjs-2'
 import './SalaryCalculator.css'
 import Chart from 'chart.js/auto'
