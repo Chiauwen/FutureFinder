@@ -3,7 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 import { Header, PageTitle, Footer} from '../components';
 import styled from 'styled-components'
 import Theme from '../Theme.js';
-import imageSrc from '../assets/analysisResult.png';
+import imageSrc from '../assets/csprofession.png';
 
 const Img = styled.img`
   width: 650px;
@@ -45,11 +45,12 @@ const AnalysisPage = () => {
                 <Img src={imageSrc} alt="graphic image" />
             </Col>
             <Col md={6}>
-                <Title>Medical Field</Title>
+                <Title>Computer Science</Title>
                 <Description>
-                Based on your answers, our analysis suggests that you have a strong interest in the <Bold>medical field</Bold>. 
-                Some potential career paths for you could include becoming a <Bold>doctor, nurse, physician assistant, or medical researcher</Bold>. 
-                You may also want to consider pursuing further education and training in areas such as <Bold>biology, chemistry, or anatomy</Bold>.
+                Based on your answers, our analysis suggests that you have a strong interest in the field of <Bold>Computer Science</Bold>. 
+                Some potential career paths for you could include becoming a <Bold>software developer, web developer, data analyst, cybersecurity specialist, or IT project manager</Bold>. 
+                You may also want to consider pursuing further education and training in areas such as <Bold>computer programming, data structures, algorithms, network security, or database management</Bold>. 
+                These areas of study and professions can help you develop the skills and knowledge needed to succeed in the CS field.
                 </Description>
             </Col>
           </Row>

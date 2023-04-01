@@ -76,7 +76,7 @@ const CompanyProfile = () => {
           <Rating>Ratings ({profile.totalRatings}) {filledStarsString}{emptyStarsString}</Rating>
           <Line></Line>
         </Container>
-        <ProfileContent title="Description" description={profile.description}/>
+        <ProfileContent title="Description" description={profile.description} field={profile.field}/>
         <ProfileContent title="Reviews" description={profile.reviews}/>
         <Container>
         <Wrapper>
