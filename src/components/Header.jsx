@@ -4,7 +4,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
 import { Link } from "react-router-dom";
-
 import logo from '../assets/logo.png';
 import styled from 'styled-components'
 import Theme from '../Theme.js';
@@ -95,14 +94,7 @@ function Header() {
                 <NavLink as={Link} to='/'>Home</NavLink>
                 <NavDropDown title="Services" id="collasible-nav-dropdown">
                   <NavDropDownItem as={Link} to='/analysis'>Career Path Analysis</NavDropDownItem>
-                  <NavDropDownItem href="/interviewWritingPage">
-                    Interview Techniques
-                  </NavDropDownItem>
-                  <NavDropDownItem href="/resumePage">
-                    Resume Writing
-                  </NavDropDownItem>
-                  <NavDropDownItem href="/SalaryCalculator">Salary Calculator
-                  </NavDropDownItem>
+                  
                   <NavDropDownItem as={Link} to='/coursePage'>
                     Upcoming Courses
                   </NavDropDownItem>
@@ -112,16 +104,14 @@ function Header() {
                   <NavDropDownItem as={Link} to='/mockCover'>
                     AI Mock Interview
                   </NavDropDownItem>
-                  <NavDropDownItem href="careerInfo">
-                    Career Path Prior Information
-                  </NavDropDownItem>
-                  <NavDropDownItem href="/workshop">
-                    Upcoming Workshop
-                  </NavDropDownItem>
                   <NavDropDownItem href="/programPage">
                     FuturePath Partner Program
                   </NavDropDownItem>
+                  <NavDropDownItem href="/Others">
+                    Others...
+                  </NavDropDownItem>
                 </NavDropDown>
+
                 <NavLink as={Link} to='/login'>
                   <Register>Login</Register>
                 </NavLink>

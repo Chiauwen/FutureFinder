@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Navbar} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
 import Theme from '../Theme.js';
 import styled from 'styled-components';
 import logo from '../assets/logo.png';
@@ -99,7 +98,6 @@ function Footer() {
               <li><StyledLink to="/analysis">Career Path Analysis</StyledLink></li>
               <li><StyledLink to="/interviewWritingPage">Interview Techniques</StyledLink></li>
               <li><StyledLink to="/resumePage">Resume Writing</StyledLink></li>
-              <li><StyledLink to="/SalaryCalculator">Salary Calculator</StyledLink></li>
               <li><StyledLink to="/coursePage">Upcoming Courses</StyledLink></li>
             </ul>
             </Col>
