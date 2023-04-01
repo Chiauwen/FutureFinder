@@ -88,7 +88,7 @@ const CompanyProfile = () => {
         <Container>
         <Wrap>
           <Col md={3}>
-            <But as={Link} to='' >Register Now</But>
+            <But as={Link} to='' >Register</But>
           </Col>
           <Col md={3}>
           <But as={Link} to='/offerletterVerification'>Submit Review</But>

@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom'
 
 function Others() {
   return (
-    <div className="others">
+    <div className='Page'>
+      <div className="others">
       <Header />
       <div className="othersbutton">
         <Link to="/interviewWritingPage">
@@ -23,6 +24,7 @@ function Others() {
       </div>
       <img src={peoples}></img>
       <Footer />
+    </div>
     </div>
   )
 }
