@@ -17,7 +17,6 @@ import {
   ProfessionalProfile,
   SignUp,
   ProfileStudent,
-  SalaryCalculator,
   ChatPage,
   CoachingPage,
   CareerInfo,
@@ -31,7 +30,8 @@ import {
   ProfileMentor,
   CoursePage,
   CourseDetails,
-  Tokens
+  Tokens,
+  Others,
 } from './pages'
 
 const router = createBrowserRouter([
@@ -42,6 +42,10 @@ const router = createBrowserRouter([
   {
     path: '/ProfileStudent',
     element: <ProfileStudent />,
+  },
+  {
+    path: '/Others',
+    element: <Others />,
   },
   {
     path: '/ProfileMentor',
@@ -58,10 +62,6 @@ const router = createBrowserRouter([
   {
     path: '/signup',
     element: <SignUp />,
-  },
-  {
-    path: '/SalaryCalculator',
-    element: <SalaryCalculator />,
   },
   {
     path: '/analysis',
