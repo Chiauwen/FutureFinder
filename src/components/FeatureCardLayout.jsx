@@ -44,9 +44,9 @@ const data = [
   },
   {
     index: 7,
-    title: 'Company Review',
-    description: 'Check what the others think about the company',
-    route: '/CompanyPage'
+    title: 'FuturePath Partner Program',
+    description: 'Get involved in industrial projects',
+    route: '/programPage'
   }
 ]
 

@@ -6,8 +6,8 @@ import App from './App.js'
 import './index.css'
 import {
   LoginPage,
-  CompanyProfile,
-  CompanyPage,
+  ProgramProfile,
+  ProgramPage,
   AnalysisPage,
   AnalysisResult,
   MockInterviewCover,
@@ -114,12 +114,12 @@ const router = createBrowserRouter([
     element: <InterviewWritingPage />,
   },
   {
-    path: '/companyPage',
-    element: <CompanyPage />,
+    path: '/programPage',
+    element: <ProgramPage />,
   },
   {
-    path: '/companyProfile/:id',
-    element: <CompanyProfile />,
+    path: '/programProfile/:id',
+    element: <ProgramProfile />,
   },
   {
     path: '/Plan',
