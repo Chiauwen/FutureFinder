@@ -3,7 +3,7 @@ import { GoBack, Header, PageTitle, Footer, ProfileContent} from '../components'
 import './pages.css';
 import { useParams } from 'react-router-dom';
 import Program from "./Program"
-import { Container, Button} from "react-bootstrap";
+import { Container, Button, Row, Col } from "react-bootstrap";
 import {Link} from "react-router-dom";
 import styled from 'styled-components'
 import Theme from '../Theme.js';
@@ -18,6 +18,13 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+`;
+
+const Wrap = styled(Row)`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:50px;
 `;
 
 const Rating = styled.h2`
@@ -79,9 +86,14 @@ const CompanyProfile = () => {
         <ProfileContent title="Description" description={profile.description}/>
         <ProfileContent title="Reviews" description={profile.reviews}/>
         <Container>
-        <Wrapper>
-        <But as={Link} to='/offerletterVerification' >Submit Review</But>
-        </Wrapper>
+        <Wrap>
+          <Col md={3}>
+            <But as={Link} to='' >Register</But>
+          </Col>
+          <Col md={3}>
+          <But as={Link} to='/offerletterVerification'>Submit Review</But>
+          </Col>
+      </Wrap>
         </Container>
       <Footer />
       </div>
