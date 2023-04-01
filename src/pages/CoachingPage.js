@@ -53,6 +53,10 @@ const Video = styled.video`
   }
 `;
 
+const Pad = styled.h2`
+padding: 20px;
+`;
+
 const CoachingPage = () => {
   const videoRef = useRef(null);
   const [isStreaming, setIsStreaming] = useState(false);
@@ -102,6 +106,8 @@ const CoachingPage = () => {
       <Container>
         <PageTitle title="Group Coaching" />
         <GoBack route="/professional"/>
+        
+        <Pad>What You'll Be Expecting in A Junior Software Engineering Role</Pad>
           <Wrapper>
             <Row>
             <Col md={4}>
