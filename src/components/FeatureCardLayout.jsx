@@ -38,15 +38,27 @@ const data = [
   },
   {
     index: 6,
+    title: 'Upcoming Courses',
+    description: 'Join courses offered this month by our professionals',
+    route: '/coursePage'
+  },
+  {
+    index: 7,
     title: 'Salary Calculator ',
     description: 'Get what you deserved based on the market',
     route: '/SalaryCalculator'
   },
   {
-    index: 7,
+    index: 8,
     title: 'Company Review',
     description: 'Check what the others think about the company',
     route: '/CompanyPage'
+  },
+  {
+    index: 9,
+    title: 'Career Path Information',
+    description: 'Check out details of different careers',
+    route: '/careerInfo'
   }
 ]
 
