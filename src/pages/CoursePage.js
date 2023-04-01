@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Dropdown, Card, Button } from "react-bootstrap";
-import { Header, PageTitle, Footer} from '../components';
+import { Header, PageTitle, Footer, GoBack} from '../components';
 import { Link } from "react-router-dom";
 import Course from "./Course"
 
@@ -83,7 +83,7 @@ const CoursePage = () => {
     <Theme>
         <div className="Page">
         <Header />
-        <PageTitle title="Courses" />
+        <PageTitle title="Upcoming Courses" />
         <Container>
       <Row>
       {filteredCourses.map((Course) => (

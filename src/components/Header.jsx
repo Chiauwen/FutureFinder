@@ -104,7 +104,7 @@ function Header() {
                   <NavDropDownItem href="/SalaryCalculator">Salary Calculator
                   </NavDropDownItem>
                   <NavDropDownItem as={Link} to='/coursePage'>
-                    Course Offer
+                    Upcoming Courses
                   </NavDropDownItem>
                   <NavDropDownItem as={Link} to='/professional'>
                     Chat With Professional and Group Coaching

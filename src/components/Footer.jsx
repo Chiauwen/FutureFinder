@@ -97,18 +97,19 @@ function Footer() {
             <ul className="list-unstyled">
               <li><StyledLink to="/">Home</StyledLink></li>
               <li><StyledLink to="/analysis">Career Path Analysis</StyledLink></li>
-              <li><StyledLink to="/professional">Interview Techniques</StyledLink></li>
-              <li><StyledLink to="/mockCover">Resume Writing</StyledLink></li>
-              <li><StyledLink to="/mockCover">Salary Calculator</StyledLink></li>
+              <li><StyledLink to="/interviewWritingPage">Interview Techniques</StyledLink></li>
+              <li><StyledLink to="/resumePage">Resume Writing</StyledLink></li>
+              <li><StyledLink to="/SalaryCalculator">Salary Calculator</StyledLink></li>
+              <li><StyledLink to="/coursePage">Upcoming Courses</StyledLink></li>
             </ul>
             </Col>
             <Col lg={6}>
             <ul className="list-unstyled">
-            <li><StyledLink to="/mockCover">Chat With Professional and Group Coaching</StyledLink></li>
+            <li><StyledLink to="/professional">Chat With Professional and Group Coaching</StyledLink></li>
               <li><StyledLink to="/mockCover">AI Mock Interview</StyledLink></li>
-              <li><StyledLink to="/mockCover">Career Path Prior Information</StyledLink></li>
-              <li><StyledLink to="/mockCover">Upcoming Workshop</StyledLink></li>
-              <li><StyledLink to="/mockCover">Company Review</StyledLink></li>
+              <li><StyledLink to="/careerInfo">Career Path Prior Information</StyledLink></li>
+              <li><StyledLink to="/workshop">Upcoming Workshop</StyledLink></li>
+              <li><StyledLink to="/companyPage">Company Review</StyledLink></li>
             </ul>
             </Col>
            </Row>

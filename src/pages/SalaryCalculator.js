@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { useState, useEffect } from 'react'
 import { Header } from '../components'
+=======
+import { Header, PageTitle, Footer } from '../components';
+import React from 'react'
+>>>>>>> e2fd73afc57f3b4b0909e9af6032a6b9752ecaaa
 import { Bar } from 'react-chartjs-2'
 import './SalaryCalculator.css'
 import Chart from 'chart.js/auto'
@@ -51,9 +56,10 @@ function SalaryCalculator() {
   }
 
   return (
-    <div className="salarycalculator">
+    <div className='Page'>
+      <div className="salarycalculator">
       <Header />
-      <h2>Salary Calculator</h2>
+      <PageTitle title="Salary Calculator"/>
       <h5>Know your worth.</h5>
 
       <div className="selection">
@@ -94,6 +100,8 @@ function SalaryCalculator() {
       <div className="chart">
         <Bar data={data} options={options} width={100} height={30} />
       </div>
+      <Footer />
+    </div>
     </div>
   )
   changechart()
