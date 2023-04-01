@@ -94,8 +94,6 @@ const Profile = () => {
               <button>Online Banking</button>
               <RiSecurePaymentFill />
               <button>FPX</button>
-              <GiKidneys />
-              <button>Kidney</button>
             </div>
           </div>
         )

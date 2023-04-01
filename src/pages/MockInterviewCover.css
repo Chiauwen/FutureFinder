@@ -9,11 +9,26 @@
   
   .mockinterview-p{
     font-weight: 400;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 37px;
+    text-align: justify;
   
     color: #000000;
   }
+
+  .select p{
+    margin-top: 3rem;
+    line-height: 0;
+    font-weight: 500;
+  }
+
+  .select select {
+    margin-bottom: 3rem;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 15px;
+  }
+  
   
   .startbtn{
     background: #FFB756;
@@ -32,7 +47,6 @@
     color: #000000;
     text-align: center;
     border: none;
-
   }
   
   .startbtn:hover, .startbtn:active {
