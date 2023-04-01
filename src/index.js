@@ -17,11 +17,13 @@ import {
   ProfessionalProfile,
   SignUp,
   ProfileStudent,
-  SalaryCalculator,
   ChatPage,
   CoachingPage,
   CareerInfo,
   AccountantInfo,
+  Actuaries,
+  ArchitectInfo,
+  ProgrammerInfo,
   Workshop,
   ResumePage,
   InterviewWritingPage,
@@ -31,7 +33,8 @@ import {
   ProfileMentor,
   CoursePage,
   CourseDetails,
-  Tokens
+  Tokens,
+  Others,
 } from './pages'
 
 const router = createBrowserRouter([
@@ -42,6 +45,10 @@ const router = createBrowserRouter([
   {
     path: '/ProfileStudent',
     element: <ProfileStudent />,
+  },
+  {
+    path: '/Others',
+    element: <Others />,
   },
   {
     path: '/ProfileMentor',
@@ -58,10 +65,6 @@ const router = createBrowserRouter([
   {
     path: '/signup',
     element: <SignUp />,
-  },
-  {
-    path: '/SalaryCalculator',
-    element: <SalaryCalculator />,
   },
   {
     path: '/analysis',
@@ -83,7 +86,6 @@ const router = createBrowserRouter([
     path: '/mockResult',
     element: <MockResultPage />,
   },
-
   {
     path: '/professional',
     element: <ProfessionalPage />,
@@ -103,6 +105,18 @@ const router = createBrowserRouter([
   {
     path: '/accountantInfo',
     element: <AccountantInfo />,
+  },
+  {
+    path: '/actuaries',
+    element: <Actuaries />,
+  },
+  {
+    path: '/architectInfo',
+    element: <ArchitectInfo />,
+  },
+  {
+    path: '/programmerInfo',
+    element: <ProgrammerInfo />,
   },
   {
     path: '/coaching',

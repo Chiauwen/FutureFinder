@@ -8,30 +8,24 @@ import FeatureCard from './FeatureCard';
 const data = [
   {
     index: 1,
-    title: 'Career Path Analysis',
-    description: 'Check what kind of career path suits you',
-    route: '/analysis'
-  },
-  {
-    index: 2,
     title: 'AI Mock Interview',
     description: 'Practice your next interview with an AI',
     route: '/mockCover'
   },
   {
-    index: 3,
+    index: 2,
     title: 'Chat With Professional',
     description: 'Get valuable advises from industry professional',
     route: '/professional'
   },
   {
-    index: 4,
+    index: 3,
     title: 'Upcoming Courses',
     description: 'Join courses offered this month by our professionals',
     route: '/coursePage'
   },
   {
-    index: 5,
+    index: 4,
     title: 'FuturePath Partner Program',
     description: 'Gain experience in different fields',
     route: '/CompanyPage'
