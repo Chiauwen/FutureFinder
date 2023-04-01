@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Container, Row, Col, Dropdown, Card, Button } from "react-bootstrap";
 import { Header, PageTitle, Footer} from '../components';
 import { Link } from "react-router-dom";
-import Company from "./Company"
+import Program from "./Program"
 
 import styled from 'styled-components'
 import Theme from '../Theme.js';
@@ -78,16 +78,16 @@ const CompanyPage = () => {
   };
 
   const filteredCompany = selectedIndustry
-    ? Company.filter((Company) => {
-        return Company.industry === selectedIndustry;
+    ? Program.filter((Program) => {
+        return Program.industry === selectedIndustry;
       })
-    : Company;
+    : Program;
 
   return (
     <Theme>
         <div className="Page">
         <Header />
-        <PageTitle title="Companies" />
+        <PageTitle title="FuturePath Partner Program" />
         <Container>
       <Row>
         <Col>
@@ -113,9 +113,9 @@ const CompanyPage = () => {
             <Individual>
               <Image variant="top" src={Company.image} />
               <Card.Body>
-                <Card.Title>{Company.name}</Card.Title>
+                <Card.Title>{Company.programme}</Card.Title>
                 <CardText>{Company.industry}</CardText>
-                <Link to={`/companyProfile/${Company.id}`}>
+                <Link to={`/programProfile/${Company.id}`}>
                 <View>View Details</View>
                 </Link>
               </Card.Body>

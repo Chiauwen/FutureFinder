@@ -2,7 +2,7 @@ import React from 'react'
 import { GoBack, Header, PageTitle, Footer, ProfileContent} from '../components';
 import './pages.css';
 import { useParams } from 'react-router-dom';
-import Company from "./Company"
+import Program from "./Program"
 import { Container, Button} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import styled from 'styled-components'
@@ -51,7 +51,7 @@ const But = styled(Button)`
 
 const CompanyProfile = () => {
     const { id } = useParams();
-    const profile = Company.find(p => p.id === Number(id));
+    const profile = Program.find(p => p.id === Number(id));
     const filledStars = Math.round(profile.ratingScore);
     const emptyStars = 5 - filledStars;
 
@@ -64,10 +64,12 @@ const CompanyProfile = () => {
       <div className="Page">
         <Header />
         <PageTitle title="Biography"/>
-        <GoBack route="/companyPage"/>
+        <GoBack route="/programPage"/>
         <Wrapper>
           <Image variant="top" src={profile.image} />
+          <h2>{profile.programme}</h2>
           <h2>{profile.name}</h2>
+          <h2>{profile.length}</h2>
           <h2>{profile.industry} | {profile.location}</h2>
         </Wrapper>
         <Container>

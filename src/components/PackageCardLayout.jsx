@@ -14,13 +14,13 @@ const data = [
   },
   {
     title: 'Budget',
-    description: ['1 Session Of AI-based Mock Interview','1 Session Of Chatting With Industrial Professional'],
+    description: ['1 Session Of AI-based Mock Interview', 'OR', '1 Session Of Chatting With Industrial Professional'],
     button: "Subscribe Now",
     route: '/Plan'
   },
   {
     title: 'Premium',
-    description: ['AI-based Mock Interview','Chat With Industrial Professional','1-on-1 Mentorship'],
+    description: ['AI-based Mock Interview','Chat With Industrial Professional','Group Coaching'],
     button: "Subscribe Now",
     route: '/Plan'
   }

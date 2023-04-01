@@ -118,8 +118,8 @@ function Header() {
                   <NavDropDownItem href="/workshop">
                     Upcoming Workshop
                   </NavDropDownItem>
-                  <NavDropDownItem href="/companyPage">
-                    Company Review
+                  <NavDropDownItem href="/programPage">
+                    FuturePath Partner Program
                   </NavDropDownItem>
                 </NavDropDown>
                 <NavLink as={Link} to='/login'>
