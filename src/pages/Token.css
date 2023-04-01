@@ -80,6 +80,10 @@
   display: table;
 }
 
+.chart{
+ margin: 0 5rem 0 5rem;
+}
+
 .milestone {
   align-items: center;
 }
@@ -96,9 +100,10 @@
   text-align: center;
 }
 
-.milestone-content p{
-  margin: 0 2rem 0 2rem;
+.milestone-content{
+  margin: 0 8rem 0 8rem;
   font-weight: 500;
+  text-align: justify;
 }
 
 .warning{

@@ -28,7 +28,7 @@ const data = [
     index: 4,
     title: 'FuturePath Partner Program',
     description: 'Gain experience in different fields',
-    route: '/CompanyPage'
+    route: '/programPage'
   }
 ]
 

@@ -61,7 +61,7 @@ const Company = [
     name: 'Acme Inc.',
     location: 'Selangor',
     description:
-      'This 6-month program is geared towards graduates with a background in cybersecurity or related fields. Trainees will learn to defend against cyber attacks and maintain secure computer networks. They will work on real-world projects alongside experienced cybersecurity professionals and learn about various security technologies.',
+      'This 6-month program is geared towards graduates with a background in AI or related fields. Over the 6 months, trainee will go through 4 modules, which included Machine Learning, Data Analyst, Web-Development and Business Analytics.',
     industry: 'Information Technology',
     totalRatings: 1234,
     ratingScore: 4.5,
@@ -121,7 +121,7 @@ const Company = [
     name: 'TechWave',
     location: 'Johor',
     description:
-      'This 1-year program is designed for recent computer science graduates who are passionate about developing software applications. Trainees will learn to design, develop, and test high-quality software products that meet the needs of customers. They will work with experienced software engineers on various projects, gaining hands-on experience with different programming languages and tools.',
+      'This 1-year program is designed for recent computer science graduates who are passionate about developing software applications. Trainees will learn to design, develop, and test high-quality software products that meet the needs of customers. The trainee will get the chances to hands-on mobile development, web development, product design, quality assurance, desktop application development and UI/UX design',
     industry: 'Information Technology',
     totalRatings: 132,
     ratingScore: 4.5,
@@ -147,11 +147,11 @@ const Company = [
   {
     id: 6,
     programme: 'Elite Path Program',
-    length: '3 months',
+    length: '12 months',
     name: 'Smith & Co Law Firm',
     location: 'Kuala Lumpur',
     description:
-      'The Law Graduate Trainee will be responsible for assisting attorneys with research, drafting legal documents and participating in client meetings.',
+      'The Law Graduate Trainee will be responsible for assisting attorneys with research, drafting legal documents and participating in client meetings. The modules that trainee will be hands-on in 12 months are Legal Consultant, Lawyer and Paralegal.',
     industry: 'Law',
     totalRatings: 65,
     ratingScore: 4.7,

@@ -5,26 +5,26 @@ import { Link } from 'react-router-dom'
 
 function Others() {
   return (
-    <div className='Page'>
+    <div className="Page">
       <div className="others">
-      <Header />
-      <div className="othersbutton">
-        <Link to="/interviewWritingPage">
-          <button>Interview Techniques</button>
-        </Link>
-        <Link to="/ResumePage">
-          <button>Resume Writing</button>
-        </Link>
-        <Link to="/Workshop">
-          <button>Upcoming Workshop</button>
-        </Link>
-        <Link to="/CareerInfo">
-          <button>Career Path Prior Information</button>
-        </Link>
+        <Header />
+        <div className="othersbutton">
+          <Link to="/interviewWritingPage">
+            <button>Interview Techniques</button>
+          </Link>
+          <Link to="/ResumePage">
+            <button>Resume Writing</button>
+          </Link>
+          <Link to="/Workshop">
+            <button>Upcoming Workshop</button>
+          </Link>
+          <Link to="/CareerInfo">
+            <button>Career Path Prior Information</button>
+          </Link>
+        </div>
+        <img src={peoples}></img>
       </div>
-      <img src={peoples}></img>
       <Footer />
-    </div>
     </div>
   )
 }
