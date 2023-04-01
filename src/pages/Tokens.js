@@ -5,6 +5,7 @@ import chat from '../assets/mentorchat.png'
 import gcoach from '../assets/groupcoach.jpg'
 import Chart from 'chart.js/auto'
 import { Line } from 'react-chartjs-2'
+import { Footer } from '../components'
 
 Chart.register(LinearScale, CategoryScale)
 
@@ -107,6 +108,8 @@ function Tokens() {
           <button>learn more penalty rules</button>
         </div>
       </div>
+
+      <Footer />
     </div>
   )
 }
