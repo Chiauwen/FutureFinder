@@ -21,6 +21,9 @@ import {
   CoachingPage,
   CareerInfo,
   AccountantInfo,
+  Actuaries,
+  ArchitectInfo,
+  ProgrammerInfo,
   Workshop,
   ResumePage,
   InterviewWritingPage,
@@ -83,7 +86,6 @@ const router = createBrowserRouter([
     path: '/mockResult',
     element: <MockResultPage />,
   },
-
   {
     path: '/professional',
     element: <ProfessionalPage />,
@@ -103,6 +105,18 @@ const router = createBrowserRouter([
   {
     path: '/accountantInfo',
     element: <AccountantInfo />,
+  },
+  {
+    path: '/actuaries',
+    element: <Actuaries />,
+  },
+  {
+    path: '/architectInfo',
+    element: <ArchitectInfo />,
+  },
+  {
+    path: '/programmerInfo',
+    element: <ProgrammerInfo />,
   },
   {
     path: '/coaching',
