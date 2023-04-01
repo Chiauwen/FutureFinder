@@ -45,14 +45,14 @@ const AnalysisPage = () => {
                 <Img src={imageSrc} alt="graphic image" />
             </Col>
             <Col md={6}>
-                <Title>Computer Science</Title>
-                <Description>
-                Based on your answers, our analysis suggests that you have a strong interest in the field of <Bold>Computer Science</Bold>. 
-                Some potential career paths for you could include becoming a <Bold>software developer, web developer, data analyst, cybersecurity specialist, or IT project manager</Bold>. 
-                You may also want to consider pursuing further education and training in areas such as <Bold>computer programming, data structures, algorithms, network security, or database management</Bold>. 
-                These areas of study and professions can help you develop the skills and knowledge needed to succeed in the CS field.
-                </Description>
-            </Col>
+    <Title>Software Engineering</Title>
+    <Description>
+    Based on your answers, our analysis suggests that you have a strong interest in the field of <Bold>Software Engineering</Bold>. 
+    Some potential career paths for you could include becoming a <Bold>software engineer, full-stack developer, mobile application developer, software architect, or DevOps engineer</Bold>. 
+    You may also want to consider pursuing further education and training in areas such as <Bold>software design patterns, software testing, software development methodologies, version control systems, or cloud computing</Bold>. 
+    These areas of study and professions can help you develop the skills and knowledge needed to succeed in the software engineering field.
+    </Description>
+</Col>
           </Row>
         </Container>
       </Theme>
