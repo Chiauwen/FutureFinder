@@ -14,51 +14,27 @@ const data = [
   },
   {
     index: 2,
-    title: 'Mock Interview',
+    title: 'AI Mock Interview',
     description: 'Practice your next interview with an AI',
     route: '/mockCover'
   },
   {
     index: 3,
-    title: 'Resume Writing',
-    description: 'Find out how to make your resume stand out',
-    route: '/ResumePage'
-  },
-  {
-    index: 4,
-    title: 'Interview Techniques',
-    description: 'Nail your interview with advice from experts',
-    route: '/InterviewWritingPage'
-  },
-  {
-    index: 5,
     title: 'Chat With Professional',
     description: 'Get valuable advises from industry professional',
     route: '/professional'
   },
   {
-    index: 6,
+    index: 4,
     title: 'Upcoming Courses',
     description: 'Join courses offered this month by our professionals',
     route: '/coursePage'
   },
   {
-    index: 7,
-    title: 'Salary Calculator ',
-    description: 'Get what you deserved based on the market',
-    route: '/SalaryCalculator'
-  },
-  {
-    index: 8,
-    title: 'Company Review',
-    description: 'Check what the others think about the company',
+    index: 5,
+    title: 'FuturePath Partner Program',
+    description: 'Gain experience in different fields',
     route: '/CompanyPage'
-  },
-  {
-    index: 9,
-    title: 'Career Path Information',
-    description: 'Check out details of different careers',
-    route: '/careerInfo'
   }
 ]
 
