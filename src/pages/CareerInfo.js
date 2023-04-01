@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 
 import accounting from '../assets/accounting-systems1.png'
 import accounting1 from '../assets/accounting1.png'
-import construct from '../assets/construction.jpg'
-import technology from '../assets/technologyd.png'
+import architect from '../assets/architect.jpg'
+import technology from '../assets/programmer.jpg'
 
 import './pages.css'
 import Theme from '../Theme.js';
@@ -54,15 +54,21 @@ const CareerInfo = () => {
             </Col>
             <Col xs={6} sm={6} md={8} lg={10} className='careerbox'>
                 <img className='career-img' src={accounting} alt="accounting image" width="432px" height="301px"/>
-                <button className='careerinfo-btn'>Account Assistant</button>
+                <Link to='/actuaries'>
+                <button className='careerinfo-btn'>Actuary</button>
+                </Link>
             </Col>
             <Col xs={6} sm={6} md={8} lg={10} className='careerbox'>
-                <img className='career-img' src={construct} alt="construction image" width="432px" height="301px"/>
-                <button className='careerinfo-btn'>Constructor</button>
+                <img className='career-img' src={architect} alt="architect image" width="432px" height="301px"/>
+                <Link to='/architectInfo'>
+                <button className='careerinfo-btn'>Architect</button>
+                </Link>
             </Col>
             <Col xs={6} sm={6} md={8} lg={10} className='careerbox'>
                 <img className='career-img' src={technology} alt="technology image" width="432px" height="301px"/>
-                <button className='careerinfo-btn'>AI Engineer</button>
+                <Link to='/programmerInfo'>
+                <button className='careerinfo-btn'>Programmer</button>
+                </Link>
             </Col>
         </Row>
       </Container>

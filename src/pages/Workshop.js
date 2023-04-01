@@ -17,8 +17,8 @@ const Workshop = () => {
                     <img src={careerclip} alt="problemsolving"/>
                 </Col>
                 <Col md={6}>
-                <h3 className='workshop-heading'>Career Development Workshop</h3>
-                <p className='workshop-description'>Our career development workshop help you to understand what drives in careers, and what actions to take to be proactive about lifelong learning, gaining critical experiences and skills for the future.</p>
+                <h3 className='workshop-heading'>Career Pathways Workshop</h3>
+                <p className='workshop-description'>Our career development workshop help you to discover the career path that best matches your talents, goals, and personality with this new innovative program.</p>
                 <p className='workshop-description'>Date: 2 May 2023, Tuesday</p>
                 <p className='workshop-description'>Time: 8am to 5pm</p>
                 <p className='workshop-description'>Venue: MITC Melaka</p>
