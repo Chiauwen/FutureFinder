@@ -77,7 +77,7 @@ function Tokens() {
         <h2>Earn More with Earning Milestone</h2>
         <h5>guide more, earn more</h5>
         <div className="chart">
-          <Line data={data} options={options} width={60} height={20} />
+          <Line data={data} options={options} width={35} height={10} />
         </div>
         <div className="milestone-content">
           <p>
@@ -86,7 +86,7 @@ function Tokens() {
           </p>
           <br />
           <p>
-            For example, let say today you have guided total of 100 students,
+            For example, you have guided total of 100 students,
             then for your professional chat tokens get will increase to 5
             tokens/session. Meanwhile group coaching will increase to 7
             tokens/session

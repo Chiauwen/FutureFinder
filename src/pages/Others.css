@@ -1,5 +1,6 @@
 .others{
     margin: 5rem 13rem;
+    font-family: 'Montserrat';
 }
 
 .othersbutton button{
@@ -10,5 +11,12 @@
     font-size: 40px;
     background-color: transparent;
     border: none;
-    text-decoration: none;
+}
+
+.othersbutton button:hover{
+    color: grey;
+}
+
+.others .img{
+    float: right;
 }

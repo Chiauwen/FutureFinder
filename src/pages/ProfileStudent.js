@@ -39,7 +39,7 @@ const Profile = () => {
                 <strong>Interested Field:</strong> Engineering
               </p>
 
-              <h5>Available points: 20</h5>
+              <h5>Available points: 230</h5>
 
               <Link to="/PointsGuide">
                 <button className="pointsguide">Get More Points Now! </button>
