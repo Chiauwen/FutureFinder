@@ -41,6 +41,7 @@ const MockInterviewCover = () => {
             <option>Medical Science</option>
             <option>Teacher</option>
             <option>Nutritionist</option>
+            <option>Software Engineering</option>
           </select>
         </div>
 
